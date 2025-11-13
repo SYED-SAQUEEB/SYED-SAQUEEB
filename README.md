@@ -21,12 +21,10 @@ Hi 👋 I'm SYED SAQUEEB
 </text>
 </svg>
 
-<!-- Animated Typing Effect (Using the existing external resource) -->
+<!-- Animated Typing Effect -->
 
 <div style="margin-top: -30px;">
-<a href="https://git.io/typing-svg">
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=FB7185&center=true&vCenter=true&width=500&lines=Frontend+Developer;UI%2FUX+Enthusiast;Building+Modern+Web+Experiences;Continuous+Learner" alt="Typing SVG" />
-</a>
 </div>
 
 <!-- Contact Badges with Subtle Hover Animation -->
@@ -44,13 +42,13 @@ Hi 👋 I'm SYED SAQUEEB
 </div>
 </div>
 
-💻 Technical Stack & Tools
+## 💻 Technical Stack & Tools
 
 <!-- Modern Tech Stack Display - Clean, non-flickering layout -->
 
 <div align="center" style="margin-top: 20px; padding: 10px 0;">
 
-Frontend & Core
+### Frontend & Core
 
 <p>
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" class="tech-badge">
@@ -58,14 +56,14 @@ Frontend & Core
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" class="tech-badge">
 </p>
 
-Frameworks & Styling
+### Frameworks & Styling
 
 <p>
 <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" class="tech-badge">
 <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap" class="tech-badge">
 </p>
 
-Version Control & Deployment
+### Version Control & Deployment
 
 <p>
 <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" class="tech-badge">
@@ -76,7 +74,7 @@ Version Control & Deployment
 
 </div>
 
-🎯 Current Focus & Future Goals
+## 🎯 Current Focus & Future Goals
 
 <div align="center" style="margin-bottom: 20px;">
 <p>
@@ -91,7 +89,7 @@ I'm actively deepening my expertise in modern component-based architecture and s
 </p>
 </div>
 
-💼 Featured Projects (Responsive Cards)
+## 💼 Featured Projects
 
 <!-- Flexbox-like layout using tables/divs for a clean grid look -->
 
@@ -151,7 +149,7 @@ I'm actively deepening my expertise in modern component-based architecture and s
 
 </div>
 
-📈 GitHub Metrics
+## 📈 GitHub Metrics
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
 
@@ -252,7 +250,7 @@ height: auto;
 /* Stats Card Hover Effect */
 .stats-card {
 border-radius: 8px;
-animation: fadeIn 1.5s ease-out; /* Keep the existing fade in */
+animation: fadeIn 1.5s ease-out;
 transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
@@ -267,5 +265,11 @@ box-shadow: 0 0 20px rgba(56, 189, 248, 0.5); /* Blue glow on hover */
 flex: 1 1 100%; /* Full width on small screens */
 max-width: 100%;
 }
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+from { opacity: 0; }
+to { opacity: 1; }
 }
 </style>
