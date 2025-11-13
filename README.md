@@ -1,735 +1,314 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Syed Saqueeb - Full Stack Web Developer Portfolio</title>
-    <!-- Poppins Font from Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <!-- Bootstrap 5 CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<!-- Syed Saqueeb — GitHub Profile README (Hybrid: dark with neon accents) -->
 
-    <style>
-        /* ====================================
-           CSS Variables & Global Styles (Dark Mode Default: Navy/Gold)
-           ==================================== */
-        :root {
-            /* Dark Theme Colors */
-            --bg-dark: #121212; /* True Dark */
-            --text-dark: #e0e0e0; /* Off-White Text */
-            --card-bg-dark: #1e1e1e; /* Card Background */
-            --primary-accent: #FFD700; /* Gold */
-            --secondary-accent: #1E3A8A; /* Deep Navy */
-            --border-color: rgba(255, 255, 255, 0.08); /* Subtle Dark Border */
+<div align="center" class="profile-root">
 
-            /* Light Theme Colors */
-            --bg-light: #F8F9FA; /* Soft Light Gray */
-            --text-light: #212529; /* Dark Text */
-            --card-bg-light: #FFFFFF; /* White Card */
+  <!-- THEME TOGGLE (CSS-only using checkbox) -->
+  <input id="theme-toggle" type="checkbox" />
+  <label for="theme-toggle" class="theme-toggle" title="Toggle theme">🌙 / ☀️</label>
 
-            /* General Theme Application */
-            --main-bg: var(--bg-dark);
-            --main-text: var(--text-dark);
-            --card-bg: var(--card-bg-dark);
-        }
+  <!-- LOADING / BOOT SEQUENCE -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader-line"></div>
+    <div class="loader-text">BOOT SEQUENCE — INITIALIZING MODULES...</div>
+  </div>
 
-        /* Light Mode Overrides */
-        body.light-mode {
-            --main-bg: var(--bg-light);
-            --main-text: var(--text-light);
-            --card-bg: var(--card-bg-light);
-            --border-color: rgba(0, 0, 0, 0.1);
-            --primary-accent: #1E3A8A; /* Navy Accent in Light Mode */
-            --secondary-accent: #FFD700; /* Gold Accent in Light Mode */
-        }
+  <!-- HERO -->
+  <div class="hero">
+    <svg class="hero-title" viewBox="0 0 900 80" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Hi I'm Syed Saqueeb">
+      <defs>
+        <linearGradient id="g1" x1="0" x2="1">
+          <stop offset="0" stop-color="#7E5CF8"/>
+          <stop offset="1" stop-color="#38D8E0"/>
+        </linearGradient>
+      </defs>
+      <text x="50%" y="55%" text-anchor="middle" font-family="Fira Code, Poppins, sans-serif" font-size="34" font-weight="700" fill="url(#g1)">
+        Hi 👋 I'm Syed Saqueeb
+      </text>
+    </svg>
 
-        /* Apply variables to body and main elements */
-        body {
-            font-family: 'Poppins', sans-serif;
-            background-color: var(--main-bg);
-            color: var(--main-text);
-            transition: background-color 0.5s, color 0.5s;
-            scroll-behavior: smooth;
-        }
+    <div class="subtitle">Full Stack Web Developer • ASP.NET &amp; MERN Stack Enthusiast</div>
 
-        /* Typography and Headings */
-        h1, h2, h3, h4 {
-            font-weight: 700;
-        }
-        h2 {
-            color: var(--primary-accent);
-            padding-bottom: 10px;
-            margin-bottom: 30px;
-            border-bottom: 2px solid var(--border-color);
-            display: inline-block;
-        }
+    <p class="hero-summary">
+      Passionate and detail-oriented Full Stack Web Developer building dynamic, user-focused web applications with C#, ASP.NET, MVC, SQL Server and the MERN stack. 
+      Skilled in frontend & backend, responsive UI/UX, and modern web architecture.
+    </p>
 
-        /* Card Styling */
-        .card {
-            background-color: var(--card-bg);
-            border: 1px solid var(--border-color);
-            border-radius: 12px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.5s, border-color 0.5s, transform 0.3s, box-shadow 0.3s;
-        }
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-        }
-        .light-mode .card:hover {
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
-        }
+    <div class="cta">
+      <a class="btn resume" href="#" target="_blank" rel="noreferrer">📄 View Resume</a>
+      <a class="btn github" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 GitHub Profile</a>
+      <a class="btn linkedin" href="https://www.linkedin.com/in/syed-saqueeb085/" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
+    </div>
+  </div>
 
-        /* Custom Button Accent (Primary: Gold in Dark, Navy in Light) */
-        .btn-accent {
-            background-color: var(--primary-accent);
-            border: 2px solid var(--primary-accent);
-            color: var(--bg-dark); /* Dark text on bright/accent button */
-            font-weight: 600;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-        .btn-accent:hover {
-            background-color: transparent;
-            color: var(--primary-accent);
-            border-color: var(--primary-accent);
-        }
-        /* Secondary Outline Button */
-        .btn-secondary-outline {
-            color: var(--secondary-accent);
-            border: 2px solid var(--secondary-accent);
-            background-color: transparent;
-            font-weight: 600;
-            border-radius: 8px;
-            transition: all 0.3s ease;
-        }
-        .btn-secondary-outline:hover {
-            background-color: var(--secondary-accent);
-            color: var(--bg-light); /* Light text on secondary hover */
-            border-color: var(--secondary-accent);
-        }
+  <!-- SKILLS / STACK -->
+  <section class="stack">
+    <h2>🛠️ Skills &amp; Tech Stack</h2>
 
-        /* Text Utilities */
-        .text-primary-accent { color: var(--primary-accent) !important; }
-        .text-secondary-accent { color: var(--secondary-accent) !important; }
+    <div class="badges">
+      <span class="badge">Java</span>
+      <span class="badge">C#</span>
+      <span class="badge">HTML5</span>
+      <span class="badge">CSS3</span>
+      <span class="badge">JavaScript</span>
+      <span class="badge">ASP.NET</span>
+      <span class="badge">MVC</span>
+      <span class="badge">Bootstrap</span>
+      <span class="badge">SQL Server</span>
+      <span class="badge">MongoDB</span>
+      <span class="badge">Node.js</span>
+      <span class="badge">React</span>
+      <span class="badge">Git</span>
+    </div>
 
-        /* ====================================
-           Navigation and Hero
-           ==================================== */
-        .navbar {
-            background-color: var(--bg-dark);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-        }
-        .light-mode .navbar {
-            background-color: var(--card-bg-light);
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-        }
-        .nav-link {
-            color: var(--main-text) !important;
-            transition: color 0.3s;
-        }
-        .nav-link:hover, .nav-link.active {
-            color: var(--primary-accent) !important;
-        }
-        /* Hero Styling */
-        #hero {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            text-align: center;
-            padding-top: 56px;
-        }
-        /* Fade-in animation definitions remain the same */
-        #hero h1, #hero .lead, #hero .btn { opacity: 0; }
-        #hero h1 { animation: hero-fade-in 1s forwards; animation-delay: 0.5s; }
-        #hero .lead { animation: hero-fade-in 1s forwards; animation-delay: 1s; }
-        #hero .btn { animation: hero-fade-in 1s forwards; animation-delay: 1.5s; }
-        @keyframes hero-fade-in {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-        .scroll-down {
-            position: absolute;
-            bottom: 30px;
-            left: 50%;
-            transform: translateX(-50%);
-            color: var(--primary-accent);
-            animation: bounce 2s infinite;
-        }
-        @keyframes bounce {
-            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-            40% { transform: translateY(-10px); }
-            60% { transform: translateY(-5px); }
-        }
-
-        /* ====================================
-           Animations (AOS-like)
-           ==================================== */
-        .fade-in-up {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-        }
-        .fade-in-up.animate {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        /* Experience Timeline */
-        .timeline-item {
-            position: relative;
-            padding-left: 40px;
-            margin-bottom: 50px;
-        }
-        .timeline-item::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 2px;
-            height: 100%;
-            background-color: var(--border-color);
-        }
-        .timeline-item-icon {
-            position: absolute;
-            top: 0;
-            left: -8px;
-            width: 18px;
-            height: 18px;
-            background-color: var(--primary-accent);
-            border-radius: 50%;
-            z-index: 10;
-        }
-
-        /* Theme Toggle Button */
-        #theme-toggle {
-            cursor: pointer;
-            margin-left: 1rem;
-            border: none;
-            background: none;
-            color: var(--primary-accent);
-            font-size: 1.25rem;
-            transition: color 0.3s;
-        }
-        #theme-toggle:hover {
-            color: var(--secondary-accent);
-        }
-
-        /* Scroll to Top Button */
-        #scroll-to-top {
-            position: fixed;
-            bottom: 20px;
-            right: 20px;
-            display: none;
-            z-index: 1000;
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            background-color: var(--primary-accent);
-            color: var(--bg-dark);
-            border: none;
-            opacity: 0.9;
-            transition: opacity 0.3s, background-color 0.3s;
-        }
-        #scroll-to-top:hover {
-            opacity: 1;
-        }
-    </style>
-</head>
-
-<body data-bs-spy="scroll" data-bs-target="#main-nav" data-bs-offset="50">
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top" id="main-nav">
-        <div class="container">
-            <a class="navbar-brand text-primary-accent fw-bold" href="#hero">Syed Saqueeb</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"><i class="fas fa-bars text-primary-accent"></i></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#achievements">Achievements</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-                <button id="theme-toggle" title="Toggle theme">
-                    <i class="fas fa-sun" id="theme-icon"></i>
-                </button>
-            </div>
+    <div class="skill-bars">
+      <div class="skill">
+        <div class="skill-title">Frontend</div>
+        <div class="bar">
+          <div class="progress p80"></div>
         </div>
-    </nav>
-
-    <!-- Main Content -->
-    <main>
-        <!-- 1. Hero / Intro Section -->
-        <section id="hero" class="d-flex align-items-center">
-            <div class="container py-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-10 text-center">
-                        <h1 class="display-3 fw-bold mb-3">
-                            Hello, I'm <span class="text-primary-accent">Syed Saqueeb</span>.
-                        </h1>
-                        <p class="lead text-secondary-accent fs-4 mb-4">
-                            Full Stack Web Developer | ASP.NET & MERN Stack Enthusiast
-                        </p>
-                        <p class="mb-5 mx-auto" style="max-width: 600px;">
-                            Passionate and detail-oriented Full Stack Web Developer with experience in building dynamic, user-focused web applications using C#, ASP.NET, MVC, SQL Server, and the MERN stack. Skilled in both frontend and backend technologies, database integration, and responsive design.
-                        </p>
-                        <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
-                            <a href="#" class="btn btn-accent btn-lg px-4 me-sm-3" role="button">
-                                <i class="fas fa-file-alt me-2"></i> View Resume
-                            </a>
-                            <a href="https://github.com/SYED-SAQUEEB" class="btn btn-secondary-outline btn-lg px-4 me-sm-3" target="_blank" role="button">
-                                <i class="fab fa-github me-2"></i> GitHub Profile
-                            </a>
-                            <a href="https://linkedin.com/in/syed-saqueeb085" class="btn btn-secondary-outline btn-lg px-4" target="_blank" role="button">
-                                <i class="fab fa-linkedin me-2"></i> LinkedIn Profile
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Scroll Down Indicator -->
-            <a href="#about" class="scroll-down position-absolute bottom-0 text-decoration-none p-3">
-                <i class="fas fa-chevron-down fa-2x"></i>
-            </a>
-        </section>
-
-        <!-- 2. About / Professional Summary -->
-        <section id="about" class="py-5">
-            <div class="container py-5">
-                <h2 class="fade-in-up">About Me</h2>
-                <div class="row fade-in-up">
-                    <div class="col-12">
-                        <p class="fs-5">
-                            Passionate and detail-oriented Full Stack Web Developer with 6 months of hands-on experience in building dynamic, user-focused web applications using **C#, ASP.NET, MVC, SQL Server**, and the **MERN stack** (MongoDB, Express.js, React.js, Node.js).
-                        </p>
-                        <p class="fs-5">
-                            Skilled in both front-end and back-end development, database integration, and responsive UI/UX design.
-                        </p>
-                        <p class="fs-5">
-                            Enthusiastic about modern technologies, AI-assisted tools, and automation. Eager to contribute to fast-paced development teams to deliver scalable, real-world solutions.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 3. Skills Section -->
-        <section id="skills" class="py-5" style="background-color: var(--card-bg);">
-            <div class="container py-5">
-                <h2 class="fade-in-up">Technical Skills</h2>
-                <div class="row fade-in-up">
-                    <!-- Skills Group 1: Languages & Frameworks -->
-                    <div class="col-md-6 mb-4">
-                        <h4 class="text-primary-accent mb-3"><i class="fas fa-code me-2"></i>Languages & Frameworks</h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: var(--card-bg); border-color: var(--border-color);">
-                                Java, C#, JavaScript, HTML5, CSS3
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: var(--card-bg); border-color: var(--border-color);">
-                                ASP.NET (Core & MVC), MERN Stack (React, Node, Express), Bootstrap
-                            </li>
-                        </ul>
-                    </div>
-
-                    <!-- Skills Group 2: Databases & Tools -->
-                    <div class="col-md-6 mb-4">
-                        <h4 class="text-primary-accent mb-3"><i class="fas fa-tools me-2"></i>Databases & Tools</h4>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: var(--card-bg); border-color: var(--border-color);">
-                                SQL Server, ADO.NET, MongoDB
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center" style="background-color: var(--card-bg); border-color: var(--border-color);">
-                                Visual Studio, VS Code, Git, GitHub
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row mt-4 fade-in-up">
-                    <!-- Skills Group 3: Concepts & Soft Skills -->
-                    <div class="col-12">
-                        <h4 class="text-primary-accent mb-3"><i class="fas fa-brain me-2"></i>Concepts & Soft Skills</h4>
-                        <div class="d-flex flex-wrap gap-2">
-                            <span class="badge rounded-pill p-3" style="background-color: var(--secondary-accent); color: var(--bg-light);">OOP</span>
-                            <span class="badge rounded-pill p-3" style="background-color: var(--secondary-accent); color: var(--bg-light);">Responsive Design</span>
-                            <span class="badge rounded-pill p-3" style="background-color: var(--secondary-accent); color: var(--bg-light);">CRUD Operations</span>
-                            <span class="badge rounded-pill p-3" style="background-color: var(--secondary-accent); color: var(--bg-light);">DBMS</span>
-                            <span class="badge rounded-pill p-3" style="background-color: var(--secondary-accent); color: var(--bg-light);">RESTful APIs</span>
-                            <span class="badge rounded-pill p-3" style="background-color: var(--secondary-accent); color: var(--bg-light);">Communication</span>
-                            <span class="badge rounded-pill p-3" style="background-color: var(--secondary-accent); color: var(--bg-light);">Collaboration</span>
-                            <span class="badge rounded-pill p-3" style="background-color: var(--secondary-accent); color: var(--bg-light);">Problem-Solving</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 4. Experience Section -->
-        <section id="experience" class="py-5">
-            <div class="container py-5">
-                <h2 class="fade-in-up">Professional Experience</h2>
-                <div class="row fade-in-up">
-                    <div class="col-lg-8 mx-auto">
-                        <div class="timeline-item">
-                            <span class="timeline-item-icon"></span>
-                            <div class="card p-4">
-                                <h4 class="card-title text-primary-accent fw-bold">Full Stack Developer Intern</h4>
-                                <h5 class="card-subtitle mb-2" style="color: var(--main-text);">Wainfo Technologies</h5>
-                                <p class="mb-3" style="color: var(--secondary-accent);"><i class="far fa-calendar-alt me-2"></i>May 2025 – Present</p>
-                                <ul class="list-unstyled mb-0">
-                                    <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary-accent"></i>Developed and maintained full-stack web applications using **ASP.NET** and **MERN stack**.</li>
-                                    <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary-accent"></i>Designed responsive, user-friendly interfaces with HTML, CSS, Bootstrap, and JS.</li>
-                                    <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary-accent"></i>Built and integrated **RESTful APIs** for seamless frontend-backend communication.</li>
-                                    <li class="mb-2"><i class="fas fa-check-circle me-2 text-primary-accent"></i>Collaborated in agile sprints and participated in code reviews.</li>
-                                    <li class="mb-0"><i class="fas fa-check-circle me-2 text-primary-accent"></i>Ensured high-performance, secure, and maintainable code.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 5. Projects Showcase -->
-        <section id="projects" class="py-5" style="background-color: var(--card-bg);">
-            <div class="container py-5">
-                <h2 class="fade-in-up">Projects Showcase</h2>
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-
-                    <!-- Project Card 1: Genuine Hospital -->
-                    <div class="col fade-in-up" style="--delay: 0.1s;">
-                        <div class="card h-100">
-                            <img src="https://placehold.co/600x400/1E3A8A/FFD700?text=Genuine+Hospital" class="card-img-top" alt="Genuine Hospital Placeholder" style="border-radius: 12px 12px 0 0;">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold" style="color: var(--secondary-accent);">Genuine Hospital</h5>
-                                <p class="card-text" style="color: var(--main-text);">Responsive hospital website built using HTML5, Tailwind CSS, Bootstrap, and JavaScript. Modern UI, smooth animations, and optimized layouts.</p>
-                                <div class="d-flex flex-wrap gap-2 mb-3">
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">HTML5</span>
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">Bootstrap</span>
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">JS</span>
-                                </div>
-                                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                    <a href="#" class="btn btn-accent btn-sm" role="button"><i class="fas fa-external-link-alt me-1"></i> Live Demo</a>
-                                    <a href="#" class="btn btn-secondary-outline btn-sm" role="button"><i class="fab fa-github me-1"></i> View Code</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project Card 2: Almannan Decor -->
-                    <div class="col fade-in-up" style="--delay: 0.2s;">
-                        <div class="card h-100">
-                            <img src="https://placehold.co/600x400/1E3A8A/FFD700?text=Almannan+Decor" class="card-img-top" alt="Almannan Decor Placeholder" style="border-radius: 12px 12px 0 0;">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold" style="color: var(--secondary-accent);">Almannan Decor</h5>
-                                <p class="card-text" style="color: var(--main-text);">Responsive, user-friendly decor website with Tailwind and Bootstrap. Enhanced interactivity with dynamic JS components.</p>
-                                <div class="d-flex flex-wrap gap-2 mb-3">
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">Tailwind</span>
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">Bootstrap</span>
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">JS</span>
-                                </div>
-                                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                    <a href="#" class="btn btn-accent btn-sm" role="button"><i class="fas fa-external-link-alt me-1"></i> Live Demo</a>
-                                    <a href="#" class="btn btn-secondary-outline btn-sm" role="button"><i class="fab fa-github me-1"></i> View Code</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project Card 3: AIT Academy Website -->
-                    <div class="col fade-in-up" style="--delay: 0.3s;">
-                        <div class="card h-100">
-                            <img src="https://placehold.co/600x400/1E3A8A/FFD700?text=AIT+Academy" class="card-img-top" alt="AIT Academy Placeholder" style="border-radius: 12px 12px 0 0;">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold" style="color: var(--secondary-accent);">AIT Academy Website</h5>
-                                <p class="card-text" style="color: var(--main-text);">Educational portal designed with HTML5, Bootstrap, and JavaScript. Interactive and responsive for all devices.</p>
-                                <div class="d-flex flex-wrap gap-2 mb-3">
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">HTML5</span>
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">Bootstrap</span>
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">JS</span>
-                                </div>
-                                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                    <a href="#" class="btn btn-accent btn-sm" role="button"><i class="fas fa-external-link-alt me-1"></i> Live Demo</a>
-                                    <a href="#" class="btn btn-secondary-outline btn-sm" role="button"><i class="fab fa-github me-1"></i> View Code</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Project Card 4: A Perfume Website (Under Development) -->
-                    <div class="col fade-in-up" style="--delay: 0.4s;">
-                        <div class="card h-100">
-                            <img src="https://placehold.co/600x400/1E3A8A/FFD700?text=Perfume+Website" class="card-img-top" alt="Perfume Website Placeholder" style="border-radius: 12px 12px 0 0;">
-                            <div class="card-body">
-                                <h5 class="card-title fw-bold" style="color: var(--secondary-accent);">A Perfume Website <span class="badge p-2" style="background-color: var(--secondary-accent); color: var(--bg-light);">WIP</span></h5>
-                                <p class="card-text" style="color: var(--main-text);">Elegant brand website built with modern UI techniques. Currently under development.</p>
-                                <div class="d-flex flex-wrap gap-2 mb-3">
-                                    <span class="badge p-2" style="background-color: var(--primary-accent); color: var(--bg-dark);">Modern UI</span>
-                                </div>
-                                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                                    <a href="#" class="btn btn-accent btn-sm disabled" role="button"><i class="fas fa-external-link-alt me-1"></i> Live Demo</a>
-                                    <a href="#" class="btn btn-secondary-outline btn-sm disabled" role="button"><i class="fab fa-github me-1"></i> View Code</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 6. Achievements Section -->
-        <section id="achievements" class="py-5">
-            <div class="container py-5">
-                <h2 class="fade-in-up">Key Achievements</h2>
-                <div class="row fade-in-up">
-                    <div class="col-lg-8 mx-auto">
-                        <ul class="list-group list-group-flush shadow">
-                            <li class="list-group-item d-flex align-items-center card-bg py-3 px-4 rounded-3 mb-2" style="background-color: var(--card-bg); border-color: var(--border-color);">
-                                <i class="fas fa-certificate fa-lg me-3 text-primary-accent"></i>
-                                Completed **.NET Web Development Internship** at Wainfo Technologies
-                            </li>
-                            <li class="list-group-item d-flex align-items-center card-bg py-3 px-4 rounded-3 mb-2" style="background-color: var(--card-bg); border-color: var(--border-color);">
-                                <i class="fas fa-laptop-code fa-lg me-3 text-primary-accent"></i>
-                                Built and deployed live **full-stack projects** (ASP.NET & MERN)
-                            </li>
-                            <li class="list-group-item d-flex align-items-center card-bg py-3 px-4 rounded-3 mb-2" style="background-color: var(--card-bg); border-color: var(--border-color);">
-                                <i class="fab fa-github fa-lg me-3 text-primary-accent"></i>
-                                Active **GitHub contributor** with strong project documentation
-                            </li>
-                            <li class="list-group-item d-flex align-items-center card-bg py-3 px-4 rounded-3" style="background-color: var(--card-bg); border-color: var(--border-color);">
-                                <i class="fas fa-robot fa-lg me-3 text-primary-accent"></i>
-                                Developed **AI-based layout builder** (“AI Prompter Web Builder”)
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- 7. Contact Section -->
-        <section id="contact" class="py-5" style="background-color: var(--card-bg);">
-            <div class="container py-5">
-                <h2 class="fade-in-up">Get In Touch</h2>
-                <div class="row fade-in-up">
-                    <div class="col-lg-4 mb-4 mb-lg-0">
-                        <h4 class="text-primary-accent mb-3">Contact Details</h4>
-                        <ul class="list-unstyled">
-                            <li class="mb-3">
-                                <i class="fas fa-envelope me-3 text-secondary-accent"></i>
-                                syedsaqueeb085@gmail.com
-                            </li>
-                            <li class="mb-3">
-                                <i class="fab fa-github me-3 text-secondary-accent"></i>
-                                <a href="https://github.com/SYED-SAQUEEB" target="_blank" class="text-decoration-none" style="color: var(--main-text);">
-                                    github.com/SYED-SAQUEEB
-                                </a>
-                            </li>
-                            <li class="mb-3">
-                                <i class="fab fa-linkedin me-3 text-secondary-accent"></i>
-                                <a href="https://linkedin.com/in/syed-saqueeb085" target="_blank" class="text-decoration-none" style="color: var(--main-text);">
-                                    linkedin.com/in/syed-saqueeb085
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-8">
-                        <h4 class="text-primary-accent mb-3">Send a Message</h4>
-                        <form id="contact-form">
-                            <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
-                                    <div class="invalid-feedback">Please enter your name.</div>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email" required>
-                                    <div class="invalid-feedback">Please enter a valid email address.</div>
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <textarea class="form-control" id="message" rows="5" placeholder="Your Message" required></textarea>
-                                <div class="invalid-feedback">Please enter a message.</div>
-                            </div>
-                            <div class="d-grid">
-                                <button type="submit" class="btn btn-accent btn-lg" id="submit-button">
-                                    <i class="fas fa-paper-plane me-2"></i> Send Message
-                                </button>
-                            </div>
-                            <!-- Custom Message Box for Success/Error -->
-                            <div id="form-message" class="mt-3 p-3 rounded-3 text-center d-none"></div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <!-- 8. Footer -->
-    <footer class="py-4 border-top" style="border-color: var(--border-color) !important;">
-        <div class="container text-center" style="color: var(--main-text);">
-            <p class="mb-0 fs-6">&copy; 2025 Syed Saqueeb | Built with <span style="color: var(--primary-accent);"><i class="fas fa-heart"></i></span> using HTML, CSS, JS, and Bootstrap</p>
+      </div>
+      <div class="skill">
+        <div class="skill-title">Backend</div>
+        <div class="bar">
+          <div class="progress p75"></div>
         </div>
-    </footer>
+      </div>
+      <div class="skill">
+        <div class="skill-title">Full Stack</div>
+        <div class="bar">
+          <div class="progress p70"></div>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-title">Database</div>
+        <div class="bar">
+          <div class="progress p72"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Scroll to Top Button -->
-    <button id="scroll-to-top" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+  <!-- EXPERIENCE -->
+  <section class="experience">
+    <h2>💼 Experience</h2>
 
-    <!-- Bootstrap 5 JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="exp-card">
+      <div class="exp-left">
+        <div class="exp-role">Full Stack Developer Intern</div>
+        <div class="exp-company">Wainfo Technologies</div>
+        <div class="exp-date">May 2025 — Present</div>
+      </div>
+      <div class="exp-right">
+        <ul>
+          <li>Built and maintained full-stack applications using ASP.NET and MERN components.</li>
+          <li>Designed responsive interfaces with HTML, CSS, Bootstrap and JavaScript.</li>
+          <li>Implemented RESTful APIs and integrated backend services.</li>
+          <li>Participated in agile workflows: stand-ups, code reviews & CI for deployments.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-    <script>
-        // ====================================
-        // JavaScript Functions
-        // ====================================
+  <!-- PROJECTS -->
+  <section class="projects">
+    <h2>🚀 Featured Projects</h2>
 
-        document.addEventListener('DOMContentLoaded', () => {
-            const body = document.body;
-            const themeToggle = document.getElementById('theme-toggle');
-            const themeIcon = document.getElementById('theme-icon');
-            const sections = document.querySelectorAll('.fade-in-up');
-            const scrollToTopButton = document.getElementById('scroll-to-top');
-            const contactForm = document.getElementById('contact-form');
-            const formMessage = document.getElementById('form-message');
+    <div class="projects-grid">
 
-            // --- Theme Toggle ---
-            const currentTheme = localStorage.getItem('theme') || 'dark';
+      <article class="card project">
+        <div class="card-header" style="background-image:linear-gradient(135deg,#667eea 0%,#764ba2 100%);">
+          <h3>Genuine Hospital</h3>
+        </div>
+        <div class="card-body">
+          <p>Responsive hospital portal with appointment booking and service sections — modern UI and mobile-first approach.</p>
+          <div class="techs"><span>HTML</span><span>Tailwind</span><span>Bootstrap</span><span>JS</span></div>
+          <div class="card-actions">
+            <a class="live" href="https://genuinehospital.netlify.app/" target="_blank" rel="noreferrer">🔗 Live Demo</a>
+            <a class="code" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 View Code</a>
+          </div>
+        </div>
+      </article>
 
-            // Function to apply the theme
-            function applyTheme(theme) {
-                if (theme === 'light') {
-                    body.classList.add('light-mode');
-                    themeIcon.classList.remove('fa-sun');
-                    themeIcon.classList.add('fa-moon');
-                } else {
-                    body.classList.remove('light-mode');
-                    themeIcon.classList.remove('fa-moon');
-                    themeIcon.classList.add('fa-sun');
-                }
-            }
+      <article class="card project">
+        <div class="card-header" style="background-image:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);">
+          <h3>Almannan Decor</h3>
+        </div>
+        <div class="card-body">
+          <p>Elegant decor site with responsive layouts and dynamic JS interactions for content displays.</p>
+          <div class="techs"><span>HTML</span><span>Tailwind</span><span>Bootstrap</span><span>JS</span></div>
+          <div class="card-actions">
+            <a class="live" href="https://almannandecor.netlify.app/" target="_blank" rel="noreferrer">🔗 Live Demo</a>
+            <a class="code" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 View Code</a>
+          </div>
+        </div>
+      </article>
 
-            // Apply initial theme
-            applyTheme(currentTheme);
+      <article class="card project">
+        <div class="card-header" style="background-image:linear-gradient(135deg,#4facfe 0%,#00f2fe 100%);">
+          <h3>AIT Academy</h3>
+        </div>
+        <div class="card-body">
+          <p>Educational portal with secure login, responsive design and administrative panels.</p>
+          <div class="techs"><span>HTML</span><span>Bootstrap</span><span>ASP.NET</span></div>
+          <div class="card-actions">
+            <a class="live" href="https://aitaurangabad.com/" target="_blank" rel="noreferrer">🔗 Live Demo</a>
+            <a class="code" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 View Code</a>
+          </div>
+        </div>
+      </article>
 
-            themeToggle.addEventListener('click', () => {
-                const isLight = body.classList.contains('light-mode');
-                const newTheme = isLight ? 'dark' : 'light';
+      <article class="card project">
+        <div class="card-header" style="background-image:linear-gradient(135deg,#43e97b 0%,#38f9d7 100%);">
+          <h3>A Perfume</h3>
+        </div>
+        <div class="card-body">
+          <p>Client-based e-commerce prototype focused on brand aesthetics and UX — under active development.</p>
+          <div class="techs"><span>HTML</span><span>Tailwind</span><span>Bootstrap</span></div>
+          <div class="card-actions">
+            <a class="live" href="https://aperfume.netlify.app/" target="_blank" rel="noreferrer">🔗 Live Demo</a>
+            <a class="code" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 View Code</a>
+          </div>
+        </div>
+      </article>
 
-                localStorage.setItem('theme', newTheme);
-                applyTheme(newTheme);
-            });
+    </div>
+  </section>
 
-            // --- Scroll Fade-In Animation (Intersection Observer) ---
-            const observerOptions = {
-                root: null,
-                rootMargin: '0px',
-                threshold: 0.1
-            };
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements">
+    <h2>🏆 Achievements</h2>
+    <ul>
+      <li>Completed .NET Web Development Internship at Wainfo Technologies</li>
+      <li>Built and deployed multiple live full-stack projects</li>
+      <li>Active GitHub contributor with documented repositories</li>
+      <li>Developed an AI-driven layout builder tool (AI Prompter Web Builder)</li>
+    </ul>
+  </section>
 
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('animate');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, observerOptions);
+  <!-- CONTACT -->
+  <section class="contact">
+    <h2>📬 Contact</h2>
 
-            sections.forEach(section => {
-                observer.observe(section);
-            });
+    <p><strong>Email:</strong> <a href="mailto:syedsaqueeb085@gmail.com">syedsaqueeb085@gmail.com</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/SYED-SAQUEEB">github.com/SYED-SAQUEEB</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/syed-saqueeb085/">linkedin.com/in/syed-saqueeb085</a></p>
 
-            // --- Scroll to Top Button Visibility ---
-            window.onscroll = function() { scrollFunction() };
+    <!-- Simple CSS-only contact form (non-functional in static README but visually useful) -->
+    <form class="contact-form" action="#" method="post">
+      <input type="text" placeholder="Your name" disabled />
+      <input type="email" placeholder="Your email" disabled />
+      <textarea placeholder="Your message" rows="3" disabled></textarea>
+      <button class="btn send" disabled>✉️ Send (Use email above)</button>
+    </form>
+  </section>
 
-            function scrollFunction() {
-                if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-                    scrollToTopButton.style.display = "block";
-                } else {
-                    scrollToTopButton.style.display = "none";
-                }
-            }
+  <!-- STATS & FOOTER -->
+  <div class="metrics">
+    <img src="https://github-readme-stats.vercel.app/api?username=SYED-SAQUEEB&show_icons=true&theme=dark" alt="GitHub Stats" />
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SYED-SAQUEEB&theme=dark" alt="Streak" />
+  </div>
 
-            scrollToTopButton.addEventListener('click', () => {
-                window.scrollTo({ top: 0, behavior: 'smooth' });
-            });
+  <footer class="footer">
+    <div>© 2025 Syed Saqueeb • Built with ❤️ using HTML, CSS, JS & Bootstrap</div>
+  </footer>
 
-            // --- Contact Form Validation and Submission ---
-            contactForm.addEventListener('submit', function(event) {
-                event.preventDefault();
-                event.stopPropagation();
+</div>
 
-                const nameInput = document.getElementById('name');
-                const emailInput = document.getElementById('email');
-                const messageInput = document.getElementById('message');
-                let valid = true;
+<style>
+/* ========== Root & Theme ========== */
+.profile-root { --bg:#0d1117; --card:#0f1720; --muted:#9ae6b4; --accent1:#7E5CF8; --accent2:#38D8E0; --glass:rgba(255,255,255,0.03); font-family: Poppins, "Fira Sans", "Fira Code", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:var(--muted); background:var(--bg); padding:24px; border-radius:8px; line-height:1.45; }
 
-                // Simple client-side validation
-                if (nameInput.value.trim() === "") {
-                    nameInput.classList.add('is-invalid');
-                    valid = false;
-                } else {
-                    nameInput.classList.remove('is-invalid');
-                }
+/* Theme toggle: if checkbox checked -> light theme */
+#theme-toggle { position: absolute; left:-9999px; }
+#theme-toggle + .theme-toggle { position: absolute; right:20px; top:12px; background:transparent; color:var(--muted); border:1px solid rgba(255,255,255,0.04); padding:6px 10px; border-radius:6px; cursor:pointer; font-size:13px; }
+#theme-toggle:checked ~ .profile-root { --bg:#ffffff; --card:#f6f6f8; --muted:#0f1720; --accent1:#6b46c1; --accent2:#00a3c4; --glass:rgba(0,0,0,0.03); color:var(--muted); }
 
-                if (!validateEmail(emailInput.value)) {
-                    emailInput.classList.add('is-invalid');
-                    valid = false;
-                } else {
-                    emailInput.classList.remove('is-invalid');
-                }
+/* loader */
+.loader { margin:8px auto 18px; width:70%; max-width:720px; text-align:center; }
+.loader-line { height:8px; background:linear-gradient(90deg,var(--accent1),var(--accent2)); border-radius:999px; animation: load 2.8s ease forwards; transform-origin:left; box-shadow:0 4px 18px rgba(62, 76, 255, 0.12); }
+.loader-text { margin-top:8px; font-size:12px; color:rgba(255,255,255,0.65); letter-spacing:0.6px; }
 
-                if (messageInput.value.trim() === "") {
-                    messageInput.classList.add('is-invalid');
-                    valid = false;
-                } else {
-                    messageInput.classList.remove('is-invalid');
-                }
+/* hero */
+.hero { text-align:center; margin: 6px auto 18px; padding: 14px; max-width:900px; }
+.hero-title { width:100%; height:90px; margin-bottom: 6px; }
+.subtitle { font-weight:600; font-size:16px; color:var(--accent2); margin-bottom:8px; }
+.hero-summary { max-width:820px; margin:0 auto 12px; font-size:16px; color:rgba(255,255,255,0.86); }
 
-                if (valid) {
-                    // Simulate form submission success
-                    const nameVal = nameInput.value.trim();
-                    const message = `Thank you, ${nameVal.split(' ')[0]}! Your message has been received. I will be in touch shortly.`;
+/* CTA buttons */
+.cta { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-bottom:18px; }
+.btn { display:inline-block; text-decoration:none; padding:10px 14px; border-radius:8px; font-weight:600; font-size:14px; transition:all .25s ease; }
+.btn.resume { background:transparent; border:1px solid rgba(255,255,255,0.06); color:var(--muted); }
+.btn.github { background: linear-gradient(90deg,var(--accent1),var(--accent2)); color:#08101a; box-shadow:0 8px 24px rgba(62,76,255,0.12); }
+.btn.linkedin { background: rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.04); color:var(--muted); }
+.btn:hover { transform: translateY(-4px); opacity:0.98; }
 
-                    formMessage.textContent = message;
-                    formMessage.style.backgroundColor = 'var(--secondary-accent)';
-                    formMessage.style.color = 'var(--bg-light)';
-                    formMessage.classList.remove('d-none');
-                    formMessage.classList.add('d-block');
+/* sections */
+section { margin: 22px auto; max-width:980px; padding:14px; background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent); border-radius:10px; border:1px solid rgba(255,255,255,0.03); }
 
-                    // Clear the form
-                    contactForm.reset();
-                    // Remove is-invalid classes
-                    [nameInput, emailInput, messageInput].forEach(el => el.classList.remove('is-invalid'));
+/* stack badges */
+.stack h2, .projects h2, .experience h2, .achievements h2, .contact h2 { color:var(--accent1); font-size:20px; margin-bottom:10px; }
+.badges { display:flex; gap:8px; flex-wrap:wrap; margin:10px 0 16px; }
+.badge { background:var(--glass); padding:8px 10px; border-radius:999px; font-weight:600; font-size:13px; color:var(--muted); border:1px solid rgba(255,255,255,0.03); }
 
-                    // Hide message after 5 seconds
-                    setTimeout(() => {
-                        formMessage.classList.add('d-none');
-                    }, 5000);
+/* skill bars */
+.skill-bars { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
+.skill { display:flex; flex-direction:column; gap:6px; }
+.skill-title { font-size:13px; color:rgba(255,255,255,0.85); }
+.bar { height:10px; width:100%; background:rgba(255,255,255,0.03); border-radius:999px; overflow:hidden; border:1px solid rgba(255,255,255,0.02); }
+.progress { height:100%; background: linear-gradient(90deg,var(--accent1),var(--accent2)); transform:translateX(-100%); animation: fill 1.8s ease forwards 0.5s; box-shadow:0 6px 18px rgba(62,76,255,0.08); }
+.p80 { width:80%; }
+.p75 { width:75%; }
+.p72 { width:72%; }
+.p70 { width:70%; }
 
-                } else {
-                    // Display error message
-                    formMessage.textContent = 'Please correct the errors in the form before submitting.';
-                    formMessage.style.backgroundColor = '#dc3545';
-                    formMessage.style.color = '#fff';
-                    formMessage.classList.remove('d-none');
-                    formMessage.classList.add('d-block');
-                }
-            });
+/* experience */
+.exp-card { display:flex; gap:18px; align-items:flex-start; }
+.exp-left { min-width:210px; }
+.exp-role { font-weight:700; color:var(--accent1); font-size:16px; }
+.exp-company { font-size:13px; color:var(--muted); margin-top:4px; }
+.exp-date { font-size:12px; color:rgba(255,255,255,0.55); margin-top:6px; }
+.exp-right ul { margin:0; padding-left:18px; color:rgba(255,255,255,0.85); }
 
-            function validateEmail(email) {
-                // Regex for basic email format validation
-                const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-                return re.test(String(email).toLowerCase());
-            }
-        });
-    </script>
-</body>
-</html>
+/* projects grid */
+.projects-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:18px; margin-top:12px; }
+.card { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:12px; overflow:hidden; border:1px solid rgba(255,255,255,0.03); box-shadow: 0 6px 20px rgba(3,7,18,0.6); transition: transform .28s ease, box-shadow .28s ease; }
+.card:hover { transform: translateY(-8px); box-shadow: 0 18px 40px rgba(0,0,0,0.6); }
+.card-header { padding:18px; color:#fff; }
+.card-header h3 { margin:0; font-size:18px; color:#08101a; }
+.card-body { padding:14px; color:rgba(255,255,255,0.9); }
+.card-body p { font-size:14px; margin:0 0 8px; color:rgba(255,255,255,0.85); }
+.techs { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px; }
+.techs span { background:rgba(255,255,255,0.03); padding:6px 8px; border-radius:6px; font-size:12px; color:var(--muted); border:1px solid rgba(255,255,255,0.02); }
+
+/* animated Live button */
+.card-actions { display:flex; gap:8px; }
+.card-actions a { text-decoration:none; padding:8px 10px; border-radius:8px; font-weight:700; font-size:13px; transition: all .22s ease; }
+.card-actions .live { background: linear-gradient(90deg,var(--accent1),var(--accent2)); color:#07101a; box-shadow:0 8px 18px rgba(62,76,255,0.12); }
+.card-actions .live:hover { transform: translateY(-4px) scale(1.02); box-shadow:0 12px 28px rgba(62,76,255,0.16); filter:brightness(1.03); }
+.card-actions .code { background:transparent; color:var(--muted); border:1px solid rgba(255,255,255,0.04); }
+.card-actions .code:hover { transform: translateY(-4px); background:rgba(255,255,255,0.02); }
+
+/* achievements, contact, footer */
+.achievements ul { margin:6px 0 0; padding-left:18px; color:rgba(255,255,255,0.9); }
+.contact-form { margin-top:10px; display:flex; gap:8px; flex-direction:column; }
+.contact-form input, .contact-form textarea { background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.03); padding:10px; border-radius:8px; color:var(--muted); font-size:13px; }
+.contact-form button { padding:10px 14px; border-radius:8px; border:none; background:linear-gradient(90deg,var(--accent1),var(--accent2)); color:#07101a; font-weight:700; cursor:not-allowed; opacity:0.9; }
+
+/* metrics */
+.metrics { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:18px; }
+.metrics img { border-radius:8px; }
+
+/* footer */
+.footer { text-align:center; margin-top:18px; font-size:13px; color:rgba(255,255,255,0.6); padding:8px 0; }
+
+/* animations */
+@keyframes load { 0% { transform:scaleX(0);} 75% { transform:scaleX(1);} 100% { transform:scaleX(1); opacity:0.9; } }
+@keyframes fill { from { transform:translateX(-100%);} to { transform:translateX(0%);} }
+
+/* responsive */
+@media (max-width:820px) {
+  .skill-bars { grid-template-columns: 1fr; }
+  .exp-card { flex-direction:column; }
+  .loader { width:90%; }
+}
+</style>
