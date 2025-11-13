@@ -1,204 +1,291 @@
-<!-- The Best Developer Style README -->
+<!--
+[PROJECT]: SYNTHESIS // SYED SAQUEEB
+[STATUS]: ONLINE
+[THEME]: CYBERPUNK_TERMINAL
+-->
 
-<div align="center">
+<div align="center" class="hacker-container">
 
-<!-- Animated Welcome Section: Gradient Text + Monospaced Font -->
+<!-- HACKER COMMAND LINE HEADER -->
 
-<svg width="500" height="100" viewBox="0 0 500 100">
+<div class="terminal-header">
+<svg width="600" height="100" viewBox="0 0 600 100" class="glitch-svg">
 <defs>
-<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-<!-- Slightly slowed down color cycle for smoother transition -->
-<stop offset="0%" stop-color="#38BDF8">
-<animate attributeName="stop-color" values="#38BDF8;#7E22CE;#FB7185;#38BDF8" dur="6s" repeatCount="indefinite" />
-</stop>
-<stop offset="100%" stop-color="#7E22CE">
-<animate attributeName="stop-color" values="#7E22CE;#FB7185;#38BDF8;#7E22CE" dur="6s" repeatCount="indefinite" />
-</stop>
-</linearGradient>
+<filter id="glitch">
+<feTurbulence baseFrequency="0.01 0.05" result="noise" seed="1"/>
+<feDisplacementMap in="SourceGraphic" in2="noise" scale="5" xChannelSelector="R" yChannelSelector="G" result="displacement"/>
+<feBlend in="SourceGraphic" in2="displacement" mode="normal" />
+</filter>
 </defs>
-<text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="Fira Code, monospace" font-size="30" font-weight="700" fill="url(#gradient)">
-Hi 👋 I'm SYED SAQUEEB
+<text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
+font-family="Fira Code, monospace" font-size="34" font-weight="700"
+fill="#00FF41" class="neon-text">
+[ROOT@SYSTEM]: ACCESS GRANTED
 </text>
 </svg>
+</div>
 
-<!-- Animated Typing Effect (Using the existing external resource) -->
+<!-- ANIMATED TYPING / SCANNING LOG -->
 
 <div style="margin-top: -30px;">
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=FB7185&center=true&vCenter=true&width=500&lines=Frontend+Developer;UI%2FUX+Enthusiast;Building+Modern+Web+Experiences;Continuous+Learner" alt="Typing SVG" />
+<img src="https://www.google.com/search?q=https://readme-typing-svg.herokuapp.com%3Ffont%3DFira%2BCode%26size%3D22%26duration%3D2500%26pause%3D800%26color%3D00FF41%26center%3Dtrue%26vCenter%3Dtrue%26width%3D550%26lines%3DBinary%2BCode%2BArtisan%3BExploiting%2BFrontend%2BWeaknesses%3BContinuous%2BLearner%253BSecure%2BWeb%2BArchitect" alt="Typing SVG" class="shadow-glitch" />
 </a>
 </div>
 
-<!-- Contact Badges with Subtle Hover Animation -->
+<!-- CONTACT / ENCRYPTION KEYS -->
 
-<div class="social-links" style="margin-top: 30px; display: flex; justify-content: center; gap: 10px;">
+<div class="social-links" style="margin-top: 35px;">
+<span class="prompt-text">> Connection.log:</span>
 <a href="https://www.linkedin.com/in/syed-saqueeb085/" target="_blank" class="badge-link">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2&color=0A66C2" alt="LinkedIn">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-00FF41%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3D0D1117%26labelColor%3D0D1117%26color%3D00FF41" alt="LinkedIn">
 </a>
 <a href="https://github.com/SYED-SAQUEEB" target="_blank" class="badge-link">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717&color=181717" alt="GitHub">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-00FF41%3Fstyle%3Dfor-the-badge%26logo%3Dgithub%26logoColor%3D0D1117%26labelColor%3D0D1117%26color%3D00FF41" alt="GitHub">
 </a>
 <a href="mailto:syedsaqueeb085@gmail.com" class="badge-link">
-<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335&color=EA4335" alt="Email">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/MAIL-00FF41%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3D0D1117%26labelColor%3D0D1117%26color%3D00FF41" alt="Email">
 </a>
 </div>
 </div>
 
-💻 Technical Stack & Tools
+[System.Tools]::OPERATIONAL_LOG
 
-<!-- Modern Tech Stack Display - Clean, non-flickering layout -->
+<!-- Technical Stack framed as Log Files -->
 
 <div align="center" style="margin-top: 20px; padding: 10px 0;">
 
-Frontend & Core
-
+<div class="log-section">
+<h3 class="neon-sub-header">>> Frontend.Protocols</h3>
 <p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white" alt="HTML5" class="tech-badge">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white" alt="CSS3" class="tech-badge">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/HTML5-00FF41%3Fstyle%3Dflat%26logo%3Dhtml5%26logoColor%3D0D1117" alt="HTML5" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/CSS3-00FF41%3Fstyle%3Dflat%26logo%3Dcss3%26logoColor%3D0D1117" alt="CSS3" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/JavaScript-00FF41%3Fstyle%3Dflat%26logo%3Djavascript%26logoColor%3D0D1117" alt="JavaScript" class="tech-badge">
 </p>
+</div>
 
-Frameworks & Styling
-
+<div class="log-section">
+<h3 class="neon-sub-header">>> Styling.Modules</h3>
 <p>
-<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" class="tech-badge">
-<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white" alt="Bootstrap" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Tailwind_CSS-00FF41%3Fstyle%3Dflat%26logo%3Dtailwind-css%26logoColor%3D0D1117" alt="Tailwind CSS" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Bootstrap-00FF41%3Fstyle%3Dflat%26logo%3Dbootstrap%26logoColor%3D0D1117" alt="Bootstrap" class="tech-badge">
 </p>
+</div>
 
-Version Control & Deployment
-
+<div class="log-section">
+<h3 class="neon-sub-header">>> Control.Deployment</h3>
 <p>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git" class="tech-badge">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub" class="tech-badge">
-<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white" alt="Netlify" class="tech-badge">
-<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Git-00FF41%3Fstyle%3Dflat%26logo%3Dgit%26logoColor%3D0D1117" alt="Git" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/GitHub-00FF41%3Fstyle%3Dflat%26logo%3Dgithub%26logoColor%3D0D1117" alt="GitHub" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Netlify-00FF41%3Fstyle%3Dflat%26logo%3Dnetlify%26logoColor%3D0D1117" alt="Netlify" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/VS_Code-00FF41%3Fstyle%3Dflat%26logo%3Dvisual-studio-code%26logoColor%3D0D1117" alt="VS Code" class="tech-badge">
 </p>
+</div>
 
 </div>
 
-🎯 Current Focus & Future Goals
+🎯 [Future.Targets]::PRIORITY_ONE
+
+<!-- Current Focus & Future Goals framed as Targets -->
 
 <div align="center" style="margin-bottom: 20px;">
-<p>
-I'm actively deepening my expertise in modern component-based architecture and scaling complex applications.
+<p class="neon-text">
+<span class="prompt-text">> Status: Analyzing complex component architecture and scaling solutions.</span>
 </p>
 
 <p>
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" class="tech-badge">
-<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" class="tech-badge">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" class="tech-badge">
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/React-00FF41%3Fstyle%3Dfor-the-badge%26logo%3Dreact%26logoColor%3D0D1117" alt="React" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Next.js-00FF41%3Fstyle%3Dfor-the-badge%26logo%3Dnextdotjs%26logoColor%3D0D1117" alt="Next.js" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/TypeScript-00FF41%3Fstyle%3Dfor-the-badge%26logo%3Dtypescript%26logoColor%3D0D1117" alt="TypeScript" class="tech-badge">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Node.js-00FF41%3Fstyle%3Dfor-the-badge%26logo%3Dnodedotjs%26logoColor%3D0D1117" alt="Node.js" class="tech-badge">
 </p>
 </div>
 
-💼 Featured Projects (Responsive Cards)
+💼 [Project.Files]::CLASSIFIED_ACCESS
 
-<!-- Flexbox-like layout using tables/divs for a clean grid look -->
+<!-- Projects framed as Classified Files/Blocks -->
 
 <div align="center" class="projects-container">
 
-<div class="project-card" style="--card-bg: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
-<h3>🏥 Genuine Hospital Website</h3>
-<p class="project-description">A fully responsive, mobile-first design for a hospital, focusing on optimized layouts and smooth interactions.</p>
+<div class="hacker-project-card" style="--card-border: #00FF41;">
+<span class="prompt-text">>> file: GenuineHospital.web</span>
+<h3 class="neon-text">🏥 Hospital Portal (Secured)</h3>
+<p class="project-description">System designed for high resilience and mobile deployment. Optimized for low-latency data access.</p>
 <div class="project-links">
 <a href="https://genuinehospital.netlify.app/" target="_blank">
-<img src="https://img.shields.io/badge/Live_Demo-4facfe?style=flat-square&logo=netlify&logoColor=white" alt="Live Demo">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/View_Online-00FF41%3Fstyle%3Dflat-square%26logo%3Dnetlify%26logoColor%3D0D1117" alt="Live Demo">
 </a>
 <a href="https://github.com/SYED-SAQUEEB" target="_blank">
-<img src="https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white" alt="View Code">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Code_Location-00FF41%3Fstyle%3Dflat-square%26logo%3Dgithub%26logoColor%3D0D1117" alt="View Code">
 </a>
 </div>
 </div>
 
-<div class="project-card" style="--card-bg: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
-<h3>🏠 Almannan Decor Website</h3>
-<p class="project-description">Showcasing user-friendly interfaces and dynamic features for a decor service, built with semantic HTML.</p>
+<div class="hacker-project-card" style="--card-border: #00FF41;">
+<span class="prompt-text">>> file: AlmannanDecor.db</span>
+<h3 class="neon-text">🏠 Decor Service (Data Interface)</h3>
+<p class="project-description">Semantic interface for dynamic content delivery. Engineered for high user throughput and quick rendering.</p>
 <div class="project-links">
 <a href="https://almannandecor.netlify.app/" target="_blank">
-<img src="https://img.shields.io/badge/Live_Demo-4facfe?style=flat-square&logo=netlify&logoColor=white" alt="Live Demo">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/View_Online-00FF41%3Fstyle%3Dflat-square%26logo%3Dnetlify%26logoColor%3D0D1117" alt="Live Demo">
 </a>
 <a href="https://github.com/SYED-SAQUEEB" target="_blank">
-<img src="https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white" alt="View Code">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Code_Location-00FF41%3Fstyle%3Dflat-square%26logo%3Dgithub%26logoColor%3D0D1117" alt="View Code">
 </a>
 </div>
 </div>
 
-<div class="project-card" style="--card-bg: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
-<h3>🎓 AIT Academy Website</h3>
-<p class="project-description">A live educational portal implemented with modern web standards and interactive components.</p>
+<div class="hacker-project-card" style="--card-border: #00FF41;">
+<span class="prompt-text">>> file: AITAcademy.live</span>
+<h3 class="neon-text">🎓 Educational Hub (Live Operation)</h3>
+<p class="project-description">Production-ready system demonstrating modern standards and robust interactive component deployment.</p>
 <div class="project-links">
 <a href="https://aitaurangabad.com/" target="_blank">
-<img src="https://img.shields.io/badge/Live_Project-4facfe?style=flat-square&logo=netlify&logoColor=white" alt="Live Demo">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/View_Online-00FF41%3Fstyle%3Dflat-square%26logo%3Dnetlify%26logoColor%3D0D1117" alt="Live Demo">
 </a>
 <a href="https://github.com/SYED-SAQUEEB" target="_blank">
-<img src="https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white" alt="View Code">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Code_Location-00FF41%3Fstyle%3Dflat-square%26logo%3Dgithub%26logoColor%3D0D1117" alt="View Code">
 </a>
 </div>
 </div>
 
-<div class="project-card" style="--card-bg: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
-<h3>🌸 A Perfume Website</h3>
-<p class="project-description">An elegant, brand-aligned interface demonstrating design and responsiveness skills.</p>
+<div class="hacker-project-card" style="--card-border: #00FF41;">
+<span class="prompt-text">>> file: APERFUME.beta</span>
+<h3 class="neon-text">🌸 Perfume Interface (Elegant Design)</h3>
+<p class="project-description">A prototype focused on aesthetic elegance and brand alignment. Currently in development stage.</p>
 <div class="project-links">
 <a href="https://aperfume.netlify.app/" target="_blank">
-<img src="https://img.shields.io/badge/Live_Demo-4facfe?style=flat-square&logo=netlify&logoColor=white" alt="Live Demo">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/View_Online-00FF41%3Fstyle%3Dflat-square%26logo%3Dnetlify%26logoColor%3D0D1117" alt="Live Demo">
 </a>
 <a href="https://github.com/SYED-SAQUEEB" target="_blank">
-<img src="https://img.shields.io/badge/View_Code-181717?style=flat-square&logo=github&logoColor=white" alt="View Code">
+<img src="https://www.google.com/search?q=https://img.shields.io/badge/Code_Location-00FF41%3Fstyle%3Dflat-square%26logo%3Dgithub%26logoColor%3D0D1117" alt="View Code">
 </a>
 </div>
 </div>
 
 </div>
 
-📈 GitHub Metrics
+📈 [Analysis.Repo]::ACTIVITY_FEED
 
 <div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
 
-<!-- GitHub Stats Card -->
+<!-- GitHub Stats Card - Using Dracula Theme for dark/neon consistency -->
 
-<img class="stats-card" src="https://github-readme-stats.vercel.app/api?username=SYED-SAQUEEB&show_icons=true&theme=gotham&include_all_commits=true&count_private=true&hide_border=true&line_height=25" alt="GitHub Stats" />
+<img class="stats-card shadow-glitch" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3DSYED-SAQUEEB%26show_icons%3Dtrue%26theme%3Ddracula%26include_all_commits%3Dtrue%26count_private%3Dtrue%26hide_border%3Dtrue%26line_height%3D25%26bg_color%3D0D1117%26text_color%3D00FF41%26icon_color%3D00FF41" alt="GitHub Stats" />
 
-<!-- Top Languages Card -->
+<!-- Top Languages Card - Using Dracula Theme -->
 
-<img class="stats-card" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SYED-SAQUEEB&layout=compact&langs_count=7&theme=gotham&hide_border=true" alt="Top Languages" />
+<img class="stats-card shadow-glitch" src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api/top-langs/%3Fusername%3DSYED-SAQUEEB%26layout%3Dcompact%26langs_count%3D7%26theme%3Ddracula%26hide_border%3Dtrue%26bg_color%3D0D1117%26text_color%3D00FF41%26icon_color%3D00FF41" alt="Top Languages" />
 
-<!-- GitHub Streak Stats -->
+<!-- GitHub Streak Stats - Using Dracula Theme -->
 
-<img class="stats-card" src="https://github-readme-streak-stats.herokuapp.com/?user=SYED-SAQUEEB&theme=gotham&hide_border=true" alt="GitHub Streak" />
+<img class="stats-card shadow-glitch" src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3DSYED-SAQUEEB%26theme%3Ddracula%26hide_border%3Dtrue%26bg_color%3D0D1117%26text_color%3D00FF41%26side_main%3D00FF41%26date_color%3D00FF41%26stroke%3D0D1117" alt="GitHub Streak" />
 
 </div>
 
-<div align="center">
+<div align="center" style="margin-top: 40px; margin-bottom: 20px;">
 <!-- Visitor Counter -->
-<img src="https://komarev.com/ghpvc/?username=SYED-SAQUEEB&label=Profile%20Views&color=0e75b6&style=flat" alt="syedsaqueeb" style="margin-top: 20px;" />
+<img src="https://www.google.com/search?q=https://komarev.com/ghpvc/%3Fusername%3DSYED-SAQUEEB%26label%3D[SYSTEM_HITS]&color=00FF41&style=flat" alt="syedsaqueeb" />
 
 <!-- Final Signature -->
 
-<p style="font-style: italic; color: #7E22CE; margin-top: 10px;">
-&lt; / &gt; With passion and precision.
+<p class="final-signature">
+C:&amp;gt; DEPLOYMENT COMPLETE. AWAITING NEXT COMMAND...
 </p>
 </div>
 
-<!-- Custom CSS for modern README styling -->
+<!-- CUSTOM HACKER/TERMINAL CSS -->
 
 <style>
-/* Base reset/global styles */
-.social-links {
-padding: 10px;
-border-radius: 10px;
+/* GLOBAL STYLES - Set the stage for the terminal look /
+body {
+background-color: #0D1117 !important; / Deep black terminal background /
+color: #00FF41 !important; / Neon Green text */
+font-family: 'Fira Code', monospace;
 }
 
-/* Badge Hover Effect */
+a {
+color: #00FF41;
+text-decoration: none;
+transition: color 0.3s;
+}
+a:hover {
+color: #38BDF8; /* Secondary hover color */
+}
+
+h2, h3 {
+border-bottom: 2px solid rgba(0, 255, 65, 0.5); /* Neon divider */
+padding-bottom: 5px;
+margin-top: 25px;
+}
+
+/* TEXT CLASSES */
+.neon-text {
+text-shadow: 0 0 5px #00FF41, 0 0 10px #00FF41;
+color: #00FF41;
+}
+
+.prompt-text {
+color: #38BDF8; /* Blue prompt for distinction */
+margin-right: 10px;
+font-weight: bold;
+}
+
+.neon-sub-header {
+color: #38BDF8;
+font-size: 1.1em;
+margin-bottom: 5px;
+}
+
+.final-signature {
+color: #00FF41;
+font-style: normal;
+font-weight: bold;
+margin-top: 20px;
+text-shadow: 0 0 5px #00FF41;
+}
+
+/* ANIMATION & VISUAL EFFECTS */
+@keyframes scanline {
+0% { background-position: 0 0; }
+100% { background-position: 0 100%; }
+}
+
+@keyframes flicker {
+0%, 18%, 22%, 25%, 53%, 57%, 100% { text-shadow: 0 0 5px #00FF41, 0 0 10px #00FF41; }
+20%, 24%, 55% { text-shadow: none; }
+}
+
+.glitch-svg text {
+animation: flicker 4s infinite alternate;
+}
+
+/* SHADOW/GLITCH EFFECT FOR STATS & BADGES */
+.shadow-glitch {
+box-shadow:
+1px 1px 0 #38BDF8,
+2px 2px 0 #FB7185,
+3px 3px 0 #00FF41;
+transition: all 0.1s ease;
+}
+.shadow-glitch:hover {
+box-shadow:
+-1px -1px 0 #FB7185,
+-2px -2px 0 #38BDF8,
+1px 1px 0 #00FF41;
+}
+
+/* BADGE STYLING */
 .badge-link img {
-transition: transform 0.2s ease-in-out;
+transition: transform 0.2s ease-in-out, box-shadow 0.2s;
+border: 1px solid #00FF41;
 }
 .badge-link:hover img {
 transform: translateY(-3px) scale(1.05);
-filter: brightness(1.1);
+box-shadow: 0 0 10px #00FF41;
 }
 
-/* Project Card Styles */
+/* PROJECT CARD STYLING (Hacker Block) */
 .projects-container {
 display: flex;
 flex-wrap: wrap;
@@ -207,34 +294,37 @@ gap: 20px;
 padding: 20px 0;
 }
 
-.project-card {
-flex: 1 1 calc(50% - 40px); /* 2 cards per row on wider screens */
+.hacker-project-card {
+flex: 1 1 calc(50% - 40px);
 min-width: 300px;
-background: var(--card-bg, #2d3748);
-color: #ffffff;
+background: #18191a; /* Slightly lighter terminal interior /
+color: #00FF41;
 padding: 20px;
-border-radius: 12px;
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+border: 2px solid var(--card-border, #00FF41);
+border-radius: 4px;
+box-shadow: 0 0 15px rgba(0, 255, 65, 0.4); / Stronger neon glow */
 transition: all 0.3s ease;
 text-align: left;
 max-width: 450px;
 }
 
-.project-card:hover {
-transform: translateY(-8px) scale(1.01);
-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+.hacker-project-card:hover {
+transform: scale(1.02);
+box-shadow: 0 0 25px rgba(0, 255, 65, 0.8), 0 0 5px #00FF41 inset;
+filter: brightness(1.2);
 }
 
-.project-card h3 {
-margin-top: 0;
-border-bottom: 2px solid rgba(255, 255, 255, 0.3);
-padding-bottom: 5px;
-font-size: 1.2em;
+.hacker-project-card h3 {
+margin-top: 5px;
+margin-bottom: 10px;
+border-bottom: none;
+font-size: 1.4em;
+color: #38BDF8; /* Blue for the main project name */
 }
 
 .project-description {
 font-size: 0.9em;
-opacity: 0.8;
+color: #90EE90; /* Lighter green for body text */
 }
 
 .project-links {
@@ -243,28 +333,23 @@ display: flex;
 gap: 10px;
 }
 
-.project-links img {
-/* Ensure badge images inside links are responsive */
-max-width: 100%;
-height: auto;
-}
-
-/* Stats Card Hover Effect */
+/* STATS CARD STYLING /
 .stats-card {
-border-radius: 8px;
-animation: fadeIn 1.5s ease-out; /* Keep the existing fade in */
+border-radius: 4px;
+animation: fadeIn 1.5s ease-out;
 transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+filter: drop-shadow(0 0 5px #00FF41); / Initial neon glow for stats */
 }
 
 .stats-card:hover {
 transform: scale(1.03);
-box-shadow: 0 0 20px rgba(56, 189, 248, 0.5); /* Blue glow on hover */
+box-shadow: 0 0 20px #00FF41;
 }
 
-/* Responsive adjustment for small screens */
+/* Responsive adjustment */
 @media (max-width: 768px) {
-.project-card {
-flex: 1 1 100%; /* Full width on small screens */
+.hacker-project-card {
+flex: 1 1 100%;
 max-width: 100%;
 }
 }
