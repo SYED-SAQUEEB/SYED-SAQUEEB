@@ -1,92 +1,76 @@
-<!-- [PROJECT]::SYED_SAQUEEB // [MODE]: FRONTEND_TERMINAL_THEME -->
+<!-- [SYSTEM.MODE] :: FRONTEND_ENGINEER // THEME: CYBERPUNK_TERMINAL -->
 
 <div align="center" class="terminal-root">
 
-<!-- ACCESS HEADER -->
+<!-- BOOT SEQUENCE / LOADING ANIMATION -->
+<p class="loading-text">[BOOTING SYSTEM FILES...]</p>
+<div class="loading-bar">
+  <div class="progress"></div>
+</div>
+<p class="loading-text">[ACCESS GRANTED ✔️]</p>
+
+<!-- TERMINAL HEADER -->
 <svg width="600" height="100" viewBox="0 0 600 100" class="glitch-svg">
   <defs>
     <filter id="glitch">
-      <feTurbulence baseFrequency="0.01 0.05" result="noise" seed="2"/>
+      <feTurbulence baseFrequency="0.01 0.05" result="noise" seed="3"/>
       <feDisplacementMap in="SourceGraphic" in2="noise" scale="6" xChannelSelector="R" yChannelSelector="G"/>
     </filter>
   </defs>
   <text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle"
-        font-family="Fira Code, monospace" font-size="32" font-weight="700"
-        fill="#00FF41" filter="url(#glitch)">[ACCESS_GRANTED] SYED SAQUEEB
-  </text>
+        font-family="Fira Code, monospace" font-size="36" font-weight="700"
+        fill="#00FF41" filter="url(#glitch)">[FRONTEND_ENGINEER] SYED SAQUEEB</text>
 </svg>
 
 <!-- TYPING EFFECT -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=550&lines=Frontend+Engineer;UI%2FUX+Designer;React+Developer;Building+Interactive+Experiences" alt="Typing SVG" />
-</a>
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=550&lines=React+Developer;UI%2FUX+Designer;Frontend+Engineer;Building+Pixel-Perfect+Web+Apps" alt="Typing SVG"/>
 
 ---
 
-### 🔗 Connection Keys
-
-<a href="https://www.linkedin.com/in/syed-saqueeb085/">
-  <img src="https://img.shields.io/badge/LinkedIn-00FF41?style=for-the-badge&logo=linkedin&logoColor=0D1117&labelColor=0D1117" />
-</a>
-<a href="https://github.com/SYED-SAQUEEB">
-  <img src="https://img.shields.io/badge/GitHub-00FF41?style=for-the-badge&logo=github&logoColor=0D1117&labelColor=0D1117" />
-</a>
-<a href="mailto:syedsaqueeb085@gmail.com">
-  <img src="https://img.shields.io/badge/MAIL-00FF41?style=for-the-badge&logo=gmail&logoColor=0D1117&labelColor=0D1117" />
-</a>
+### 🔗 CONNECTION KEYS
+<a href="https://www.linkedin.com/in/syed-saqueeb085/"><img src="https://img.shields.io/badge/LinkedIn-00FF41?style=for-the-badge&logo=linkedin&logoColor=0D1117"/></a>
+<a href="https://github.com/SYED-SAQUEEB"><img src="https://img.shields.io/badge/GitHub-00FF41?style=for-the-badge&logo=github&logoColor=0D1117"/></a>
+<a href="mailto:syedsaqueeb085@gmail.com"><img src="https://img.shields.io/badge/MAIL-00FF41?style=for-the-badge&logo=gmail&logoColor=0D1117"/></a>
 
 ---
 
-### 🧠 About Me
-> “Transforming ideas into pixel-perfect, performant, and human-focused web experiences.”
+### 💼 FEATURED PROJECTS
 
-- 🚀 Specialized in **React.js, Tailwind CSS, and UI animations**
-- 💡 Focused on crafting **modern, responsive, and intuitive** interfaces
-- 🔒 Passionate about **clean code, reusability, and micro-frontend design**
-- 🎨 Aiming to blend **technology + aesthetics** in every build
+<div class="projects-container">
 
----
+<div class="project-card">
+  <h3>🏥 Genuine Hospital</h3>
+  <p>Responsive hospital portal optimized for mobile devices and accessibility.</p>
+  <a class="live-btn" href="https://genuinehospital.netlify.app/" target="_blank">🔗 Live Demo</a>
+  <a class="code-btn" href="https://github.com/SYED-SAQUEEB" target="_blank">💻 View Code</a>
+</div>
 
-### ⚙️ Frontend Toolkit
+<div class="project-card">
+  <h3>🏠 Almannan Decor</h3>
+  <p>Elegant decor website focusing on modern layouts and smooth UI transitions.</p>
+  <a class="live-btn" href="https://almannandecor.netlify.app/" target="_blank">🔗 Live Demo</a>
+  <a class="code-btn" href="https://github.com/SYED-SAQUEEB" target="_blank">💻 View Code</a>
+</div>
 
-**Languages**
-<br>
-![HTML5](https://img.shields.io/badge/HTML5-00FF41?style=flat&logo=html5&logoColor=0D1117)
-![CSS3](https://img.shields.io/badge/CSS3-00FF41?style=flat&logo=css3&logoColor=0D1117)
-![JavaScript](https://img.shields.io/badge/JavaScript-00FF41?style=flat&logo=javascript&logoColor=0D1117)
-![TypeScript](https://img.shields.io/badge/TypeScript-00FF41?style=flat&logo=typescript&logoColor=0D1117)
+<div class="project-card">
+  <h3>🎓 AIT Academy</h3>
+  <p>Educational hub featuring responsive grids, animations, and clean structure.</p>
+  <a class="live-btn" href="https://aitaurangabad.com/" target="_blank">🔗 Live Demo</a>
+  <a class="code-btn" href="https://github.com/SYED-SAQUEEB" target="_blank">💻 View Code</a>
+</div>
 
-**Frameworks & UI**
-<br>
-![React](https://img.shields.io/badge/React-00FF41?style=flat&logo=react&logoColor=0D1117)
-![Next.js](https://img.shields.io/badge/Next.js-00FF41?style=flat&logo=nextdotjs&logoColor=0D1117)
-![Tailwind](https://img.shields.io/badge/Tailwind_CSS-00FF41?style=flat&logo=tailwind-css&logoColor=0D1117)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-00FF41?style=flat&logo=bootstrap&logoColor=0D1117)
-
-**Version Control & Tools**
-<br>
-![Git](https://img.shields.io/badge/Git-00FF41?style=flat&logo=git&logoColor=0D1117)
-![GitHub](https://img.shields.io/badge/GitHub-00FF41?style=flat&logo=github&logoColor=0D1117)
-![Netlify](https://img.shields.io/badge/Netlify-00FF41?style=flat&logo=netlify&logoColor=0D1117)
-![VS Code](https://img.shields.io/badge/VS_Code-00FF41?style=flat&logo=visual-studio-code&logoColor=0D1117)
-
----
-
-### 💼 Featured Projects
-<div align="center">
-
-| Project | Description | Live | Code |
-|----------|--------------|------|------|
-| 🏥 **Genuine Hospital** | Responsive hospital portal optimized for mobile and accessibility | [Live](https://genuinehospital.netlify.app/) | [Code](https://github.com/SYED-SAQUEEB) |
-| 🏠 **Almannan Decor** | Stylish decor website focusing on user interaction and layout finesse | [Live](https://almannandecor.netlify.app/) | [Code](https://github.com/SYED-SAQUEEB) |
-| 🎓 **AIT Academy** | Educational hub built with modern web standards and responsive grids | [Live](https://aitaurangabad.com/) | [Code](https://github.com/SYED-SAQUEEB) |
-| 🌸 **A Perfume** | Elegant e-commerce prototype demonstrating brand alignment and design systems | [Live](https://aperfume.netlify.app/) | [Code](https://github.com/SYED-SAQUEEB) |
+<div class="project-card">
+  <h3>🌸 A Perfume</h3>
+  <p>Brand-aligned e-commerce prototype demonstrating refined visual balance.</p>
+  <a class="live-btn" href="https://aperfume.netlify.app/" target="_blank">🔗 Live Demo</a>
+  <a class="code-btn" href="https://github.com/SYED-SAQUEEB" target="_blank">💻 View Code</a>
+</div>
 
 </div>
 
 ---
 
-### 📊 GitHub Analytics
+### 📊 GITHUB ANALYTICS
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=SYED-SAQUEEB&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117&text_color=00FF41&icon_color=00FF41" height="170"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=SYED-SAQUEEB&theme=dracula&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" height="170"/>
@@ -94,15 +78,27 @@
 
 ---
 
-### 🛰️ System Status
-<img src="https://komarev.com/ghpvc/?username=SYED-SAQUEEB&label=[PROFILE_VIEWS]&color=00FF41&style=flat" alt="views" />
+<img src="https://komarev.com/ghpvc/?username=SYED-SAQUEEB&label=[PROFILE_VIEWS]&color=00FF41&style=flat" alt="views"/>
 <p class="final-signature">C:&gt; DEPLOYMENT COMPLETE. SYSTEM STABLE.</p>
 
 </div>
 
 <style>
-.terminal-root{font-family:'Fira Code',monospace;color:#00FF41;background-color:#0D1117;padding:10px;}
-.neon-text{text-shadow:0 0 5px #00FF41,0 0 10px #00FF41;}
-.final-signature{text-align:center;margin-top:20px;color:#00FF41;font-weight:bold;}
-img{margin:4px;}
+.terminal-root{font-family:'Fira Code',monospace;color:#00FF41;background-color:#0D1117;padding:20px;}
+.loading-text{color:#00FF41;font-size:18px;font-weight:bold;}
+.loading-bar{width:70%;height:10px;background:#1a1a1a;border:1px solid #00FF41;border-radius:5px;margin:5px auto;overflow:hidden;}
+.progress{width:0;height:100%;background:#00FF41;animation:load 3s ease-in-out forwards;}
+@keyframes load{from{width:0;}to{width:100%;}}
+.glitch-svg text{animation:flicker 3s infinite alternate;}
+@keyframes flicker{0%,18%,22%,25%,53%,57%,100%{text-shadow:0 0 5px #00FF41,0 0 15px #00FF41;}20%,24%,55%{text-shadow:none;}}
+.projects-container{display:flex;flex-wrap:wrap;justify-content:center;gap:20px;margin-top:20px;}
+.project-card{background:#111;border:2px solid #00FF41;border-radius:8px;padding:20px;width:300px;text-align:left;box-shadow:0 0 15px rgba(0,255,65,0.3);transition:all .3s ease;}
+.project-card:hover{transform:scale(1.04);box-shadow:0 0 25px rgba(0,255,65,0.8);}
+.project-card h3{color:#38BDF8;font-size:20px;margin-bottom:5px;}
+.project-card p{font-size:15px;color:#B2F5B4;margin-bottom:15px;}
+.live-btn,.code-btn{display:inline-block;margin:3px 6px 0 0;padding:6px 10px;border:1px solid #00FF41;border-radius:5px;text-decoration:none;color:#0D1117;background:#00FF41;font-weight:bold;font-size:14px;transition:all .25s;}
+.live-btn:hover{background:#38BDF8;box-shadow:0 0 10px #38BDF8;color:#0D1117;}
+.code-btn:hover{background:#FB7185;box-shadow:0 0 10px #FB7185;color:#0D1117;}
+.final-signature{text-align:center;color:#00FF41;font-size:16px;font-weight:bold;margin-top:25px;}
+@media(max-width:768px){.project-card{width:100%;}}
 </style>
