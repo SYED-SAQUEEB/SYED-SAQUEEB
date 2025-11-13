@@ -1,314 +1,217 @@
-<!-- Syed Saqueeb — GitHub Profile README (Hybrid: dark with neon accents) -->
+<!-- 🌟 Modern Developer GitHub README – Syed Saqueeb -->
 
-<div align="center" class="profile-root">
+<div align="center">
 
-  <!-- THEME TOGGLE (CSS-only using checkbox) -->
-  <input id="theme-toggle" type="checkbox" />
-  <label for="theme-toggle" class="theme-toggle" title="Toggle theme">🌙 / ☀️</label>
+<!-- Animated Gradient Name Heading -->
+<svg width="500" height="100" viewBox="0 0 500 100">
+<defs>
+<linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#38BDF8">
+<animate attributeName="stop-color" values="#38BDF8;#7E22CE;#FB7185;#38BDF8" dur="6s" repeatCount="indefinite" />
+</stop>
+<stop offset="100%" stop-color="#7E22CE">
+<animate attributeName="stop-color" values="#7E22CE;#FB7185;#38BDF8;#7E22CE" dur="6s" repeatCount="indefinite" />
+</stop>
+</linearGradient>
+</defs>
+<text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="Fira Code, monospace" font-size="32" font-weight="700" fill="url(#gradient)">
+Hi 👋 I'm Syed Saqueeb
+</text>
+</svg>
 
-  <!-- LOADING / BOOT SEQUENCE -->
-  <div class="loader" aria-hidden="true">
-    <div class="loader-line"></div>
-    <div class="loader-text">BOOT SEQUENCE — INITIALIZING MODULES...</div>
-  </div>
-
-  <!-- HERO -->
-  <div class="hero">
-    <svg class="hero-title" viewBox="0 0 900 80" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Hi I'm Syed Saqueeb">
-      <defs>
-        <linearGradient id="g1" x1="0" x2="1">
-          <stop offset="0" stop-color="#7E5CF8"/>
-          <stop offset="1" stop-color="#38D8E0"/>
-        </linearGradient>
-      </defs>
-      <text x="50%" y="55%" text-anchor="middle" font-family="Fira Code, Poppins, sans-serif" font-size="34" font-weight="700" fill="url(#g1)">
-        Hi 👋 I'm Syed Saqueeb
-      </text>
-    </svg>
-
-    <div class="subtitle">Full Stack Web Developer • ASP.NET &amp; MERN Stack Enthusiast</div>
-
-    <p class="hero-summary">
-      Passionate and detail-oriented Full Stack Web Developer building dynamic, user-focused web applications with C#, ASP.NET, MVC, SQL Server and the MERN stack. 
-      Skilled in frontend & backend, responsive UI/UX, and modern web architecture.
-    </p>
-
-    <div class="cta">
-      <a class="btn resume" href="#" target="_blank" rel="noreferrer">📄 View Resume</a>
-      <a class="btn github" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 GitHub Profile</a>
-      <a class="btn linkedin" href="https://www.linkedin.com/in/syed-saqueeb085/" target="_blank" rel="noreferrer">🔗 LinkedIn</a>
-    </div>
-  </div>
-
-  <!-- SKILLS / STACK -->
-  <section class="stack">
-    <h2>🛠️ Skills &amp; Tech Stack</h2>
-
-    <div class="badges">
-      <span class="badge">Java</span>
-      <span class="badge">C#</span>
-      <span class="badge">HTML5</span>
-      <span class="badge">CSS3</span>
-      <span class="badge">JavaScript</span>
-      <span class="badge">ASP.NET</span>
-      <span class="badge">MVC</span>
-      <span class="badge">Bootstrap</span>
-      <span class="badge">SQL Server</span>
-      <span class="badge">MongoDB</span>
-      <span class="badge">Node.js</span>
-      <span class="badge">React</span>
-      <span class="badge">Git</span>
-    </div>
-
-    <div class="skill-bars">
-      <div class="skill">
-        <div class="skill-title">Frontend</div>
-        <div class="bar">
-          <div class="progress p80"></div>
-        </div>
-      </div>
-      <div class="skill">
-        <div class="skill-title">Backend</div>
-        <div class="bar">
-          <div class="progress p75"></div>
-        </div>
-      </div>
-      <div class="skill">
-        <div class="skill-title">Full Stack</div>
-        <div class="bar">
-          <div class="progress p70"></div>
-        </div>
-      </div>
-      <div class="skill">
-        <div class="skill-title">Database</div>
-        <div class="bar">
-          <div class="progress p72"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section class="experience">
-    <h2>💼 Experience</h2>
-
-    <div class="exp-card">
-      <div class="exp-left">
-        <div class="exp-role">Full Stack Developer Intern</div>
-        <div class="exp-company">Wainfo Technologies</div>
-        <div class="exp-date">May 2025 — Present</div>
-      </div>
-      <div class="exp-right">
-        <ul>
-          <li>Built and maintained full-stack applications using ASP.NET and MERN components.</li>
-          <li>Designed responsive interfaces with HTML, CSS, Bootstrap and JavaScript.</li>
-          <li>Implemented RESTful APIs and integrated backend services.</li>
-          <li>Participated in agile workflows: stand-ups, code reviews & CI for deployments.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <!-- PROJECTS -->
-  <section class="projects">
-    <h2>🚀 Featured Projects</h2>
-
-    <div class="projects-grid">
-
-      <article class="card project">
-        <div class="card-header" style="background-image:linear-gradient(135deg,#667eea 0%,#764ba2 100%);">
-          <h3>Genuine Hospital</h3>
-        </div>
-        <div class="card-body">
-          <p>Responsive hospital portal with appointment booking and service sections — modern UI and mobile-first approach.</p>
-          <div class="techs"><span>HTML</span><span>Tailwind</span><span>Bootstrap</span><span>JS</span></div>
-          <div class="card-actions">
-            <a class="live" href="https://genuinehospital.netlify.app/" target="_blank" rel="noreferrer">🔗 Live Demo</a>
-            <a class="code" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 View Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card project">
-        <div class="card-header" style="background-image:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);">
-          <h3>Almannan Decor</h3>
-        </div>
-        <div class="card-body">
-          <p>Elegant decor site with responsive layouts and dynamic JS interactions for content displays.</p>
-          <div class="techs"><span>HTML</span><span>Tailwind</span><span>Bootstrap</span><span>JS</span></div>
-          <div class="card-actions">
-            <a class="live" href="https://almannandecor.netlify.app/" target="_blank" rel="noreferrer">🔗 Live Demo</a>
-            <a class="code" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 View Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card project">
-        <div class="card-header" style="background-image:linear-gradient(135deg,#4facfe 0%,#00f2fe 100%);">
-          <h3>AIT Academy</h3>
-        </div>
-        <div class="card-body">
-          <p>Educational portal with secure login, responsive design and administrative panels.</p>
-          <div class="techs"><span>HTML</span><span>Bootstrap</span><span>ASP.NET</span></div>
-          <div class="card-actions">
-            <a class="live" href="https://aitaurangabad.com/" target="_blank" rel="noreferrer">🔗 Live Demo</a>
-            <a class="code" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 View Code</a>
-          </div>
-        </div>
-      </article>
-
-      <article class="card project">
-        <div class="card-header" style="background-image:linear-gradient(135deg,#43e97b 0%,#38f9d7 100%);">
-          <h3>A Perfume</h3>
-        </div>
-        <div class="card-body">
-          <p>Client-based e-commerce prototype focused on brand aesthetics and UX — under active development.</p>
-          <div class="techs"><span>HTML</span><span>Tailwind</span><span>Bootstrap</span></div>
-          <div class="card-actions">
-            <a class="live" href="https://aperfume.netlify.app/" target="_blank" rel="noreferrer">🔗 Live Demo</a>
-            <a class="code" href="https://github.com/SYED-SAQUEEB" target="_blank" rel="noreferrer">💻 View Code</a>
-          </div>
-        </div>
-      </article>
-
-    </div>
-  </section>
-
-  <!-- ACHIEVEMENTS -->
-  <section class="achievements">
-    <h2>🏆 Achievements</h2>
-    <ul>
-      <li>Completed .NET Web Development Internship at Wainfo Technologies</li>
-      <li>Built and deployed multiple live full-stack projects</li>
-      <li>Active GitHub contributor with documented repositories</li>
-      <li>Developed an AI-driven layout builder tool (AI Prompter Web Builder)</li>
-    </ul>
-  </section>
-
-  <!-- CONTACT -->
-  <section class="contact">
-    <h2>📬 Contact</h2>
-
-    <p><strong>Email:</strong> <a href="mailto:syedsaqueeb085@gmail.com">syedsaqueeb085@gmail.com</a></p>
-    <p><strong>GitHub:</strong> <a href="https://github.com/SYED-SAQUEEB">github.com/SYED-SAQUEEB</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/syed-saqueeb085/">linkedin.com/in/syed-saqueeb085</a></p>
-
-    <!-- Simple CSS-only contact form (non-functional in static README but visually useful) -->
-    <form class="contact-form" action="#" method="post">
-      <input type="text" placeholder="Your name" disabled />
-      <input type="email" placeholder="Your email" disabled />
-      <textarea placeholder="Your message" rows="3" disabled></textarea>
-      <button class="btn send" disabled>✉️ Send (Use email above)</button>
-    </form>
-  </section>
-
-  <!-- STATS & FOOTER -->
-  <div class="metrics">
-    <img src="https://github-readme-stats.vercel.app/api?username=SYED-SAQUEEB&show_icons=true&theme=dark" alt="GitHub Stats" />
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=SYED-SAQUEEB&theme=dark" alt="Streak" />
-  </div>
-
-  <footer class="footer">
-    <div>© 2025 Syed Saqueeb • Built with ❤️ using HTML, CSS, JS & Bootstrap</div>
-  </footer>
-
+<!-- Typing Subtitle -->
+<div style="margin-top:-30px;">
+<a href="https://git.io/typing-svg">
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;ASP.NET+%26+MERN+Stack+Enthusiast;Crafting+Modern+Web+Experiences;Passionate+Learner" alt="Typing SVG" />
+</a>
 </div>
 
+<!-- Social Links -->
+<div class="social-links" style="margin-top:30px; display:flex; justify-content:center; gap:12px;">
+<a href="https://www.linkedin.com/in/syed-saqueeb085/" target="_blank" class="badge-link">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="https://github.com/SYED-SAQUEEB" target="_blank" class="badge-link">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
+<a href="mailto:syedsaqueeb085@gmail.com" class="badge-link">
+<img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+</a>
+</div>
+</div>
+
+---
+
+### 💻 Technical Stack & Tools
+
+<div align="center" style="margin-top:10px;">
+<p><b>Frontend & Core:</b></p>
+<p>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black">
+</p>
+
+<p><b>Frameworks & Styling:</b></p>
+<p>
+<img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white">
+<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwind-css&logoColor=white">
+</p>
+
+<p><b>Version Control & Deployment:</b></p>
+<p>
+<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white">
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white">
+</p>
+</div>
+
+---
+
+### 🎯 Current Focus & Goals
+
+<div align="center">
+<p>
+Deepening my backend integration skills and building scalable, production-level web apps using <b>ASP.NET</b> and the <b>MERN Stack</b>.  
+Focusing on smooth user experiences, responsive interfaces, and automation-driven solutions.
+</p>
+
+<p>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black">
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+</p>
+</div>
+
+---
+
+### 💼 Featured Projects
+
+<div align="center" class="projects-container">
+
+<div class="project-card" style="--card-bg:linear-gradient(135deg,#667eea 0%,#764ba2 100%);">
+<h3>🏥 Genuine Hospital</h3>
+<p>Responsive hospital website built using HTML5, Bootstrap, Tailwind CSS, and JavaScript — optimized for mobile with clean UI.</p>
+<div class="project-links">
+<a href="https://genuinehospital.netlify.app/" target="_blank" class="live-btn">🔗 Live View</a>
+<a href="https://github.com/SYED-SAQUEEB" target="_blank" class="code-btn">💻 View Code</a>
+</div>
+</div>
+
+<div class="project-card" style="--card-bg:linear-gradient(135deg,#f093fb 0%,#f5576c 100%);">
+<h3>🏠 Almannan Decor</h3>
+<p>Fully responsive site for interior decor services featuring modern UI and dynamic content interactions.</p>
+<div class="project-links">
+<a href="https://almannandecor.netlify.app/" target="_blank" class="live-btn">🔗 Live View</a>
+<a href="https://github.com/SYED-SAQUEEB" target="_blank" class="code-btn">💻 View Code</a>
+</div>
+</div>
+
+<div class="project-card" style="--card-bg:linear-gradient(135deg,#4facfe 0%,#00f2fe 100%);">
+<h3>🎓 AIT Academy</h3>
+<p>Interactive educational portal for AIT Academy designed with Bootstrap, HTML5, and responsive layouts.</p>
+<div class="project-links">
+<a href="https://aitaurangabad.com/" target="_blank" class="live-btn">🔗 Live View</a>
+<a href="https://github.com/SYED-SAQUEEB" target="_blank" class="code-btn">💻 View Code</a>
+</div>
+</div>
+
+<div class="project-card" style="--card-bg:linear-gradient(135deg,#43e97b 0%,#38f9d7 100%);">
+<h3>🌸 A Perfume Website</h3>
+<p>Elegant, brand-aligned responsive interface showcasing product design and frontend scalability.</p>
+<div class="project-links">
+<a href="https://aperfume.netlify.app/" target="_blank" class="live-btn">🔗 Live View</a>
+<a href="https://github.com/SYED-SAQUEEB" target="_blank" class="code-btn">💻 View Code</a>
+</div>
+</div>
+</div>
+
+---
+
+### 📈 GitHub Insights
+
+<div align="center" style="display:flex; flex-wrap:wrap; justify-content:center; gap:20px;">
+<img class="stats-card" src="https://github-readme-stats.vercel.app/api?username=SYED-SAQUEEB&show_icons=true&theme=gotham&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats">
+<img class="stats-card" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SYED-SAQUEEB&layout=compact&theme=gotham&hide_border=true" alt="Top Languages">
+<img class="stats-card" src="https://github-readme-streak-stats.herokuapp.com/?user=SYED-SAQUEEB&theme=gotham&hide_border=true" alt="GitHub Streak">
+</div>
+
+<div align="center" style="margin-top:20px;">
+<img src="https://komarev.com/ghpvc/?username=SYED-SAQUEEB&label=Profile%20Views&color=38BDF8&style=flat" alt="Profile Views">
+<p style="font-style:italic; color:#7E22CE; margin-top:10px;">&lt;/&gt; Built with passion & precision ⚡</p>
+</div>
+
+<!-- 🎨 Enhanced GitHub README Styles -->
 <style>
-/* ========== Root & Theme ========== */
-.profile-root { --bg:#0d1117; --card:#0f1720; --muted:#9ae6b4; --accent1:#7E5CF8; --accent2:#38D8E0; --glass:rgba(255,255,255,0.03); font-family: Poppins, "Fira Sans", "Fira Code", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; color:var(--muted); background:var(--bg); padding:24px; border-radius:8px; line-height:1.45; }
+/* Social Link Hover */
+.badge-link img {
+transition:transform 0.3s ease;
+}
+.badge-link:hover img {
+transform:translateY(-4px) scale(1.05);
+filter:brightness(1.1);
+}
 
-/* Theme toggle: if checkbox checked -> light theme */
-#theme-toggle { position: absolute; left:-9999px; }
-#theme-toggle + .theme-toggle { position: absolute; right:20px; top:12px; background:transparent; color:var(--muted); border:1px solid rgba(255,255,255,0.04); padding:6px 10px; border-radius:6px; cursor:pointer; font-size:13px; }
-#theme-toggle:checked ~ .profile-root { --bg:#ffffff; --card:#f6f6f8; --muted:#0f1720; --accent1:#6b46c1; --accent2:#00a3c4; --glass:rgba(0,0,0,0.03); color:var(--muted); }
+/* Fade-In Animation */
+@keyframes fadeInUp {
+from {opacity:0; transform:translateY(20px);}
+to {opacity:1; transform:translateY(0);}
+}
 
-/* loader */
-.loader { margin:8px auto 18px; width:70%; max-width:720px; text-align:center; }
-.loader-line { height:8px; background:linear-gradient(90deg,var(--accent1),var(--accent2)); border-radius:999px; animation: load 2.8s ease forwards; transform-origin:left; box-shadow:0 4px 18px rgba(62, 76, 255, 0.12); }
-.loader-text { margin-top:8px; font-size:12px; color:rgba(255,255,255,0.65); letter-spacing:0.6px; }
+/* Project Card Styling */
+.projects-container {
+display:flex; flex-wrap:wrap; justify-content:center; gap:20px; padding:20px;
+}
+.project-card {
+animation:fadeInUp 1s ease both;
+flex:1 1 calc(45% - 20px);
+min-width:300px; max-width:420px;
+background:var(--card-bg,#2d3748);
+color:#fff; padding:20px;
+border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.3);
+transition:all .3s ease;
+}
+.project-card:hover {
+transform:translateY(-8px) scale(1.02);
+box-shadow:0 12px 25px rgba(0,0,0,0.4);
+}
+.project-card h3 {font-size:1.3em; margin-bottom:10px; border-bottom:1px solid rgba(255,255,255,0.3); padding-bottom:5px;}
+.project-card p {font-size:0.95em; line-height:1.4; opacity:0.9;}
+.project-links {margin-top:15px; display:flex; gap:10px;}
 
-/* hero */
-.hero { text-align:center; margin: 6px auto 18px; padding: 14px; max-width:900px; }
-.hero-title { width:100%; height:90px; margin-bottom: 6px; }
-.subtitle { font-weight:600; font-size:16px; color:var(--accent2); margin-bottom:8px; }
-.hero-summary { max-width:820px; margin:0 auto 12px; font-size:16px; color:rgba(255,255,255,0.86); }
+/* Animated Buttons */
+.live-btn, .code-btn {
+display:inline-block; text-decoration:none; font-weight:600;
+padding:6px 14px; border-radius:6px;
+transition:all 0.3s ease;
+}
+.live-btn {
+background:#38BDF8; color:#000; box-shadow:0 0 10px #38BDF8;
+}
+.live-btn:hover {
+background:#0ea5e9; box-shadow:0 0 20px #38BDF8;
+transform:translateY(-2px);
+}
+.code-btn {
+background:#181717; color:#fff; box-shadow:0 0 10px rgba(255,255,255,0.2);
+}
+.code-btn:hover {
+background:#111; box-shadow:0 0 15px rgba(255,255,255,0.4);
+}
 
-/* CTA buttons */
-.cta { display:flex; gap:10px; justify-content:center; flex-wrap:wrap; margin-bottom:18px; }
-.btn { display:inline-block; text-decoration:none; padding:10px 14px; border-radius:8px; font-weight:600; font-size:14px; transition:all .25s ease; }
-.btn.resume { background:transparent; border:1px solid rgba(255,255,255,0.06); color:var(--muted); }
-.btn.github { background: linear-gradient(90deg,var(--accent1),var(--accent2)); color:#08101a; box-shadow:0 8px 24px rgba(62,76,255,0.12); }
-.btn.linkedin { background: rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.04); color:var(--muted); }
-.btn:hover { transform: translateY(-4px); opacity:0.98; }
+/* Stats Card Hover */
+.stats-card {
+border-radius:8px; transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+.stats-card:hover {
+transform:scale(1.03);
+box-shadow:0 0 15px rgba(56,189,248,0.4);
+}
 
-/* sections */
-section { margin: 22px auto; max-width:980px; padding:14px; background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent); border-radius:10px; border:1px solid rgba(255,255,255,0.03); }
-
-/* stack badges */
-.stack h2, .projects h2, .experience h2, .achievements h2, .contact h2 { color:var(--accent1); font-size:20px; margin-bottom:10px; }
-.badges { display:flex; gap:8px; flex-wrap:wrap; margin:10px 0 16px; }
-.badge { background:var(--glass); padding:8px 10px; border-radius:999px; font-weight:600; font-size:13px; color:var(--muted); border:1px solid rgba(255,255,255,0.03); }
-
-/* skill bars */
-.skill-bars { display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
-.skill { display:flex; flex-direction:column; gap:6px; }
-.skill-title { font-size:13px; color:rgba(255,255,255,0.85); }
-.bar { height:10px; width:100%; background:rgba(255,255,255,0.03); border-radius:999px; overflow:hidden; border:1px solid rgba(255,255,255,0.02); }
-.progress { height:100%; background: linear-gradient(90deg,var(--accent1),var(--accent2)); transform:translateX(-100%); animation: fill 1.8s ease forwards 0.5s; box-shadow:0 6px 18px rgba(62,76,255,0.08); }
-.p80 { width:80%; }
-.p75 { width:75%; }
-.p72 { width:72%; }
-.p70 { width:70%; }
-
-/* experience */
-.exp-card { display:flex; gap:18px; align-items:flex-start; }
-.exp-left { min-width:210px; }
-.exp-role { font-weight:700; color:var(--accent1); font-size:16px; }
-.exp-company { font-size:13px; color:var(--muted); margin-top:4px; }
-.exp-date { font-size:12px; color:rgba(255,255,255,0.55); margin-top:6px; }
-.exp-right ul { margin:0; padding-left:18px; color:rgba(255,255,255,0.85); }
-
-/* projects grid */
-.projects-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:18px; margin-top:12px; }
-.card { background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border-radius:12px; overflow:hidden; border:1px solid rgba(255,255,255,0.03); box-shadow: 0 6px 20px rgba(3,7,18,0.6); transition: transform .28s ease, box-shadow .28s ease; }
-.card:hover { transform: translateY(-8px); box-shadow: 0 18px 40px rgba(0,0,0,0.6); }
-.card-header { padding:18px; color:#fff; }
-.card-header h3 { margin:0; font-size:18px; color:#08101a; }
-.card-body { padding:14px; color:rgba(255,255,255,0.9); }
-.card-body p { font-size:14px; margin:0 0 8px; color:rgba(255,255,255,0.85); }
-.techs { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:10px; }
-.techs span { background:rgba(255,255,255,0.03); padding:6px 8px; border-radius:6px; font-size:12px; color:var(--muted); border:1px solid rgba(255,255,255,0.02); }
-
-/* animated Live button */
-.card-actions { display:flex; gap:8px; }
-.card-actions a { text-decoration:none; padding:8px 10px; border-radius:8px; font-weight:700; font-size:13px; transition: all .22s ease; }
-.card-actions .live { background: linear-gradient(90deg,var(--accent1),var(--accent2)); color:#07101a; box-shadow:0 8px 18px rgba(62,76,255,0.12); }
-.card-actions .live:hover { transform: translateY(-4px) scale(1.02); box-shadow:0 12px 28px rgba(62,76,255,0.16); filter:brightness(1.03); }
-.card-actions .code { background:transparent; color:var(--muted); border:1px solid rgba(255,255,255,0.04); }
-.card-actions .code:hover { transform: translateY(-4px); background:rgba(255,255,255,0.02); }
-
-/* achievements, contact, footer */
-.achievements ul { margin:6px 0 0; padding-left:18px; color:rgba(255,255,255,0.9); }
-.contact-form { margin-top:10px; display:flex; gap:8px; flex-direction:column; }
-.contact-form input, .contact-form textarea { background:rgba(255,255,255,0.02); border:1px solid rgba(255,255,255,0.03); padding:10px; border-radius:8px; color:var(--muted); font-size:13px; }
-.contact-form button { padding:10px 14px; border-radius:8px; border:none; background:linear-gradient(90deg,var(--accent1),var(--accent2)); color:#07101a; font-weight:700; cursor:not-allowed; opacity:0.9; }
-
-/* metrics */
-.metrics { display:flex; gap:12px; justify-content:center; flex-wrap:wrap; margin-top:18px; }
-.metrics img { border-radius:8px; }
-
-/* footer */
-.footer { text-align:center; margin-top:18px; font-size:13px; color:rgba(255,255,255,0.6); padding:8px 0; }
-
-/* animations */
-@keyframes load { 0% { transform:scaleX(0);} 75% { transform:scaleX(1);} 100% { transform:scaleX(1); opacity:0.9; } }
-@keyframes fill { from { transform:translateX(-100%);} to { transform:translateX(0%);} }
-
-/* responsive */
-@media (max-width:820px) {
-  .skill-bars { grid-template-columns: 1fr; }
-  .exp-card { flex-direction:column; }
-  .loader { width:90%; }
+/* Responsive */
+@media(max-width:768px){
+.project-card{flex:1 1 100%; max-width:100%;}
 }
 </style>
