@@ -1,47 +1,109 @@
-<!-- 🌟 Next-Gen GitHub Profile – Syed Saqueeb -->
+<!-- 🌟 Next-Gen MERN Developer GitHub Profile – Syed Saqueeb -->
 
 <div align="center">
 
-<!-- Animated neon banner + wave/bounce name using SVG (GitHub-safe) -->
-<svg width="760" height="160" viewBox="0 0 760 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<!-- 🚀 Futuristic Neon Header with Bouncing Name Animation -->
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="35%" stop-color="#7C3AED"/>
-      <stop offset="65%" stop-color="#FB7185"/>
+      <stop offset="30%" stop-color="#7C3AED"/>
+      <stop offset="60%" stop-color="#FB7185"/>
       <stop offset="100%" stop-color="#06B6D4"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
       <feMerge>
-        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
       </feMerge>
     </filter>
   </defs>
 
-  <!-- greeting -->
-  <text x="50%" y="36" text-anchor="middle" font-family="Fira Code, monospace" font-size="18" fill="#C7D2FE" opacity="0.85">
-    Hi 👋 I'm
-  </text>
+  <!-- Greeting -->
+  <text x="50%" y="45" text-anchor="middle"
+    font-family="Fira Code, monospace" font-size="22"
+    fill="#cbd5ff" opacity="0.85">Hi 👋 I'm</text>
 
-  <!-- Wave / slow bounce for name: animate y to create gentle wave -->
-  <text id="name" x="50%" y="98" text-anchor="middle" font-family="Fira Code, monospace" font-weight="800"
-        font-size="38" fill="url(#g1)" filter="url(#glow)">
-    <tspan id="letters">SYED SAQUEEB</tspan>
-    <!-- vertical bobbing -->
-    <animate attributeName="y" dur="3s" values="98;92;98" repeatCount="indefinite" />
-  </text>
+  <!-- 🔥 Bouncing Alphabet Name Animation -->
+  <g id="letters" font-family="Fira Code, monospace" font-weight="900"
+     font-size="55" fill="url(#neon)" filter="url(#glow)">
+    <!-- Split letters manually for bounce -->
+    <text x="250" y="130"><tspan>
+      <tspan>
+        <!-- S -->
+        <tspan>
+          S
+          <animate attributeName="y" dur="2.2s" values="130;120;130" repeatCount="indefinite"/>
+        </tspan>
+        <!-- Y -->
+        <tspan>
+          Y
+          <animate attributeName="y" dur="2.4s" values="130;117;130" repeatCount="indefinite"/>
+        </tspan>
+        <!-- E -->
+        <tspan>
+          E
+          <animate attributeName="y" dur="2.1s" values="130;122;130" repeatCount="indefinite"/>
+        </tspan>
+        <!-- D -->
+        <tspan>
+          D
+          <animate attributeName="y" dur="2.5s" values="130;118;130" repeatCount="indefinite"/>
+        </tspan>
 
-  <!-- subtle animated underline glow -->
-  <rect x="150" y="110" width="460" height="4" rx="2" fill="url(#g1)" opacity="0.9">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
+        <!-- SPACE -->
+        &nbsp;&nbsp;
+
+        <!-- S -->
+        <tspan>
+          S
+          <animate attributeName="y" dur="2.3s" values="130;119;130" repeatCount="indefinite"/>
+        </tspan>
+        <!-- A -->
+        <tspan>
+          A
+          <animate attributeName="y" dur="2.1s" values="130;121;130" repeatCount="indefinite"/>
+        </tspan>
+        <!-- Q -->
+        <tspan>
+          Q
+          <animate attributeName="y" dur="2.6s" values="130;116;130" repeatCount="indefinite"/>
+        </tspan>
+        <!-- U -->
+        <tspan>
+          U
+          <animate attributeName="y" dur="2.4s" values="130;118;130" repeatCount="indefinite"/>
+        </tspan>
+        <!-- E -->
+        <tspan>
+          E
+          <animate attributeName="y" dur="2.7s" values="130;115;130" repeatCount="indefinite"/>
+        </tspan>
+        <!-- E -->
+        <tspan>
+          E
+          <animate attributeName="y" dur="2.2s" values="130;120;130" repeatCount="indefinite"/>
+        </tspan>
+        <!-- B -->
+        <tspan>
+          B
+          <animate attributeName="y" dur="2.5s" values="130;118;130" repeatCount="indefinite"/>
+        </tspan>
+      </tspan>
+    </tspan></text>
+  </g>
+
+  <!-- Animated Underline -->
+  <rect x="220" y="145" width="460" height="5" rx="3" fill="url(#neon)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
   </rect>
 </svg>
 
-<!-- Typing animation -->
+<!-- 🔥 Typing Animation -->
 <p>
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3500&pause=900&color=38BDF8&center=true&vCenter=true&width=700&lines=Frontend+Developer;UI%2FUX+Enthusiast;Building+Modern+Web+Experiences;Passionate+Learner" alt="Typing SVG"/>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2400&pause=900&color=38BDF8&center=true&vCenter=true&width=750&lines=MERN+Stack+Developer;UI%2FUX+Enthusiast;Web+App+Architect;Building+Modern+Digital+Experiences;Passionate+Frontend+%2B+Backend+Developer" />
 </p>
 
 </div>
@@ -49,122 +111,105 @@
 ---
 
 # 💫 About Me
-**Specialization:** Building modern, mobile-first, accessible user interfaces.  
-**Philosophy:** Clean code, modular architecture, and a strong user experience.  
-**Current Goal:** Exploring scalable architecture and contributing to design systems.  
-**Open For:** Collaborations on innovative Frontend and UI/UX projects.
+🚀 MERN Stack Developer  
+🎨 UI/UX Focused Frontend Engineer  
+🛠 Passionate about clean code, performance, and scalable architectures  
+🌐 Building full-stack applications with modern JavaScript ecosystems  
+📱 Specialized in mobile-first, accessible, and pixel-perfect interfaces
 
 ---
 
 # 💻 Tech Stack
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=csharp&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat-square&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=flat-square&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=flat-square&logo=mongodb&logoColor=white)
+### **🔥 Core**
+![MongoDB](https://img.shields.io/badge/MongoDB-0f7f3c?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-444444?style=for-the-badge&logo=express&logoColor=white)
+![React](https://img.shields.io/badge/React-00d8ff?style=for-the-badge&logo=react&logoColor=black)
+![Node](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+
+### **🎨 Frontend**
+![Tailwind](https://img.shields.io/badge/TailwindCSS-38bdf8?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7c3aed?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-facc15?style=for-the-badge&logo=javascript&logoColor=black)
+
+### **⚙ Tools**
+![Git](https://img.shields.io/badge/Git-f54d27?style=for-the-badge&logo=git&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-0078d4?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ---
 
-# 🎨 Featured Projects (Card-style layout)
+# 🎨 Featured Projects (Glassmorphism Cards)
 <div align="center">
 
-<table cellpadding="12" cellspacing="16">
+<!-- Project Cards -->
+<table cellpadding="14" cellspacing="18">
+
+  <!-- Row 1 -->
   <tr>
-    <td valign="top" width="48%" align="left" style="border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);">
+    <td width="48%" align="left" style="background:rgba(255,255,255,0.06); border-radius:16px; padding:18px; backdrop-filter:blur(8px);">
       <h3>🏥 Genuine Hospital Website</h3>
-      <p><b>Tech:</b> HTML5 • Tailwind CSS • Bootstrap • JavaScript</p>
-      <p>
-      Developed a responsive hospital website focusing on mobile-first UX and performance.  
-      Implemented modern layouts, smooth interactions, and accessible components.  
-      Combined Tailwind’s utility-first approach with Bootstrap’s components for speed and consistency.  
-      Enhanced interactivity with JavaScript for improved user engagement.
-      </p>
-      🔗 <a href="https://genuinehospital.netlify.app/" target="_blank"><b>Live Demo</b></a><br/>
-      💻 <a href="https://github.com/SYED-SAQUEEB" target="_blank"><b>View Code</b></a>
+      <p><b>Tech:</b> HTML5 • Tailwind • Bootstrap • JavaScript</p>
+      <p>Modern responsive hospital website with mobile-first UI, smooth animations, and optimized accessibility.</p>
+      <a href="https://genuinehospital.netlify.app/"><b>🔗 Live Demo</b></a> | 
+      <a href="https://github.com/SYED-SAQUEEB"><b>💻 View Code</b></a>
     </td>
 
-    <td valign="top" width="48%" align="left" style="border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);">
+    <td width="48%" align="left" style="background:rgba(255,255,255,0.06); border-radius:16px; padding:18px; backdrop-filter:blur(8px);">
       <h3>🏠 Almannan Decor Website</h3>
-      <p><b>Tech:</b> HTML5 • Tailwind CSS • Bootstrap • JavaScript</p>
-      <p>
-      Designed and developed a fully responsive website for Almannan Decor.  
-      Built semantic, accessible markup and modern UI styling that adapts across devices.  
-      Used Tailwind for rapid custom styling and Bootstrap for design consistency.  
-      Added JavaScript-powered dynamic features to enhance the user experience.
-      </p>
-      🔗 <a href="https://almannandecor.netlify.app/" target="_blank"><b>Live Demo</b></a><br/>
-      💻 <a href="https://github.com/SYED-SAQUEEB" target="_blank"><b>View Code</b></a>
+      <p><b>Tech:</b> HTML5 • Tailwind • Bootstrap • JavaScript</p>
+      <p>Elegant interior decor website with semantic markup, modern UI patterns, and device-adaptive layouts.</p>
+      <a href="https://almannandecor.netlify.app/"><b>🔗 Live Demo</b></a> | 
+      <a href="https://github.com/SYED-SAQUEEB"><b>💻 View Code</b></a>
     </td>
   </tr>
 
+  <!-- Row 2 -->
   <tr>
-    <td valign="top" width="48%" align="left" style="border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);">
+    <td width="48%" align="left" style="background:rgba(255,255,255,0.06); border-radius:16px; padding:18px; backdrop-filter:blur(8px);">
       <h3>🎓 AIT Academy Website</h3>
-      <p><b>Tech:</b> HTML5 • Tailwind CSS • Bootstrap • JavaScript</p>
-      <p>
-      Built and deployed a fully responsive interactive website for AIT Academy.  
-      Designed an accessible, user-friendly interface aligned with modern web standards.  
-      Implemented dynamic features for improved usability and cross-device performance.
-      </p>
-      🔗 <a href="https://aitaurangabad.com/" target="_blank"><b>Live Demo</b></a><br/>
-      💻 <a href="https://github.com/SYED-SAQUEEB" target="_blank"><b>View Code</b></a>
+      <p><b>Tech:</b> HTML5 • Tailwind • Bootstrap • JavaScript</p>
+      <p>Fully responsive educational website with optimized UX, interactive modules, and fast-loading designs.</p>
+      <a href="https://aitaurangabad.com/"><b>🔗 Live Demo</b></a> | 
+      <a href="https://github.com/SYED-SAQUEEB"><b>💻 View Code</b></a>
     </td>
 
-    <td valign="top" width="48%" align="left" style="border-radius:14px; padding:14px; background:rgba(255,255,255,0.02);">
-      <h3>🌸 A Perfume Website</h3>
-      <p><b>Tech:</b> HTML5 • Tailwind CSS • Bootstrap • JavaScript</p>
-      <p>
-      Developing a responsive, elegant website for a perfume brand.  
-      Focused on visual storytelling, brand-aligned UI and smooth responsiveness.  
-      Built with clean, maintainable code and prepared for upcoming client-specific features.
-      </p>
-      🔗 <a href="https://aperfume.netlify.app/" target="_blank"><b>Live Demo</b></a><br/>
-      💻 <a href="https://github.com/SYED-SAQUEEB" target="_blank"><b>View Code</b></a>
+    <td width="48%" align="left" style="background:rgba(255,255,255,0.06); border-radius:16px; padding:18px; backdrop-filter:blur(8px);">
+      <h3>🌸 Perfume Brand Website</h3>
+      <p><b>Tech:</b> HTML5 • Tailwind • Bootstrap • JavaScript</p>
+      <p>Visually rich premium perfume website using modern layouts, UI animations, and elegant branding.</p>
+      <a href="https://aperfume.netlify.app/"><b>🔗 Live Demo</b></a> | 
+      <a href="https://github.com/SYED-SAQUEEB"><b>💻 View Code</b></a>
     </td>
   </tr>
+
 </table>
 
 </div>
 
 ---
 
-# 📊 GitHub Stats
+# 📊 GitHub Stats (Neon Theme)
 <p align="center">
-  <!-- Use your GitHub username exactly as your profile -->
-  <img src="https://github-readme-stats.vercel.app/api?username=SYED-SAQUEEB&theme=radical&hide_border=false&include_all_commits=true&count_private=false" height="140"/>
-  <img src="https://nirzak-streak-stats.vercel.app/?user=SYED-SAQUEEB&theme=radical&hide_border=false" height="140"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SYED-SAQUEEB&theme=radical&hide_border=false&layout=compact" height="140"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=SYED-SAQUEEB&theme=radical&hide_border=false&include_all_commits=true&count_private=true" height="150"/>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=SYED-SAQUEEB&theme=radical&hide_border=false" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SYED-SAQUEEB&theme=radical&hide_border=false&layout=compact" height="150"/>
 </p>
 
 ---
 
 ## 🏆 GitHub Trophies
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SYED-SAQUEEB&theme=gruvbox&no-frame=false&no-bg=false&margin-w=4" />
+  <img src="https://github-profile-trophy.vercel.app/?username=SYED-SAQUEEB&theme=onestar&margin-w=10&column=6" />
 </p>
 
 ---
 
 ## ✍️ Random Dev Quote
 <p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
-</p>
-
----
-
-## 🔝 Top Contributed Repo
-<p align="center">
-  <img src="https://github-contributor-stats.vercel.app/api?username=SYED-SAQUEEB&limit=5&theme=dark&combine_all_yearly_contributions=true" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical"/>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://visitcount.itsvg.in/api?id=SYED-SAQUEEB&icon=0&color=0" alt="profile views"/>
-</p>
-
----
-
-<p align="center">
-  <i>💜 Crafted with passion and precision — <b>Syed Saqueeb</b></i>
+  <i>💜 Crafted with passion and precision — <b>SYED SAQUEEB</b></i>
 </p>
