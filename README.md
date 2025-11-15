@@ -1,3 +1,77 @@
-<div align="center"><!-- Premium Neon Animated Banner --><svg width="800" height="180" viewBox="0 0 800 180" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"> <defs> <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="0%"> <stop offset="0%" stop-color="#00f2fe"/> <stop offset="25%" stop-color="#4facfe"/> <stop offset="50%" stop-color="#9d50bb"/> <stop offset="75%" stop-color="#ff2df7"/> <stop offset="100%" stop-color="#00f2fe"/> </linearGradient> <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%"> <feGaussianBlur stdDeviation="8" result="coloredBlur"/> <feMerge> <feMergeNode in="coloredBlur"/> <feMergeNode in="SourceGraphic"/> <feMergeNode in="SourceGraphic"/> </feMerge> </filter> <linearGradient id="underlineGradient" x1="0%" y1="0%" x2="100%" y2="0%"> <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.8"/> <stop offset="50%" stop-color="#9d50bb" stop-opacity="1"/> <stop offset="100%" stop-color="#ff2df7" stop-opacity="0.8"/> </linearGradient> </defs> <!-- Greeting Text --> <text x="50%" y="40" text-anchor="middle" font-family="Segoe UI, system-ui" font-size="20" fill="#E2E8F0" opacity="0.9"> Welcome to my digital space! 👋 I'm </text> <!-- Animated Name with Letter Bounce --> <g transform="translate(400, 110)" text-anchor="middle"> <text id="name" font-family="Segoe UI, system-ui" font-weight="800" font-size="46" fill="url(#neonGradient)" filter="url(#neonGlow)"> <tspan id="letter-S" x="-240" y="0">S</tspan> <tspan id="letter-Y" x="-210" y="0">Y</tspan> <tspan id="letter-E" x="-180" y="0">E</tspan> <tspan id="letter-D" x="-150" y="0">D</tspan> <tspan x="-120" y="0"> </tspan> <tspan id="letter-S2" x="-90" y="0">S</tspan> <tspan id="letter-A" x="-60" y="0">A</tspan> <tspan id="letter-Q" x="-30" y="0">Q</tspan> <tspan id="letter-U" x="0" y="0">U</tspan> <tspan id="letter-E2" x="30" y="0">E</tspan> <tspan id="letter-E3" x="60" y="0">E</tspan> <tspan id="letter-B" x="90" y="0">B</tspan> </text> </g> <!-- Letter Bounce Animations --> <animate xlink:href="#letter-S" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0s"/> <animate xlink:href="#letter-Y" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0.1s"/> <animate xlink:href="#letter-E" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0.2s"/> <animate xlink:href="#letter-D" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0.3s"/> <animate xlink:href="#letter-S2" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0.4s"/> <animate xlink:href="#letter-A" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0.5s"/> <animate xlink:href="#letter-Q" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0.6s"/> <animate xlink:href="#letter-U" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0.7s"/> <animate xlink:href="#letter-E2" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0.8s"/> <animate xlink:href="#letter-E3" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="0.9s"/> <animate xlink:href="#letter-B" attributeName="y" values="0;-8;0" dur="2s" repeatCount="indefinite" begin="1.0s"/> <!-- Animated Underline with Wave Effect --> <path d="M 200 140 Q 400 150 600 140" stroke="url(#underlineGradient)" stroke-width="3" fill="none" stroke-linecap="round"> <animate attributeName="d" dur="3s" values="M 200 140 Q 400 150 600 140; M 200 140 Q 400 130 600 140; M 200 140 Q 400 150 600 140" repeatCount="indefinite"/> <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/> </path> </svg>
-<!-- Enhanced Typing Animation --><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&height=50&lines=MERN+Stack+Developer;UI%2FUX+Enthusiast;Web+App+Architect;Building+Modern+Digital+Experiences;Passionate+Frontend+%2B+Backend+Developer" alt="Typing Animation"/></div>
+<!-- Header SVG -->
 <div align="center">
+<svg width="860" height="160" viewBox="0 0 860 160" xmlns="http://www.w3.org/2000/svg">
+  <!-- Replace the ... with your full SVG -->
+  ...
+</svg>
+</div>
+
+# 👋 Syed Saqueeb
+**MERN Stack Developer • UI/UX Enthusiast**
+
+---
+
+## 🚀 About Me  
+Mobile-first MERN developer focused on:  
+- Pixel-perfect, responsive interfaces  
+- Modern UI/UX  
+- Performance-optimized web applications  
+- Clean, scalable frontend architecture  
+
+---
+
+## 🌟 Projects  
+
+### 🔹 Genuine Hospital Website  
+Responsive medical website with modern UI  
+👉 **Live:** https://genuinehospital.netlify.app/  
+
+### 🔹 Almannan Decor  
+Clean, semantic layout with responsive mobile UI  
+👉 **Live:** https://almannandecor.netlify.app/  
+
+---
+
+## 🛠 Tech Stack  
+**Core:** MongoDB • Express.js • React • Node.js  
+**Frontend:** Tailwind CSS • JavaScript (ES6+)  
+**Tools:** Git • VS Code • Chrome DevTools  
+
+---
+
+## 📂 Collapsible Skill Sections
+
+<details>
+<summary><strong>Core Skills</strong></summary>
+
+- MongoDB  
+- Express.js  
+- React  
+- Node.js  
+
+</details>
+
+<details>
+<summary><strong>Frontend</strong></summary>
+
+- Tailwind CSS  
+- JavaScript (ES6+)  
+- Responsive Design  
+
+</details>
+
+<details>
+<summary><strong>Tools</strong></summary>
+
+- Git  
+- VS Code  
+- Chrome DevTools  
+
+</details>
+
+---
+
+## ✨ Footer  
+<div align="center">  
+Made with ❤️ by <strong>Syed Saqueeb</strong>  
+</div>
