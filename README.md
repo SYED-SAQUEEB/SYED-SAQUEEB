@@ -274,7 +274,7 @@ A comprehensive online examination platform that allows educators to create, man
 <td width="50%" valign="top">
 
 ### 💼 LINKNETRA IT SYSTEMS
-[![Live Demo](https://img.shields.io/badge/Live-Demo-00d9ff?style=for-the-badge&logo=netlify)](https://lnttesting.netlify.app/)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-00d9ff?style=for-the-badge&logo=netlify)](https://linknetra.in/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repo-181717?style=for-the-badge&logo=github)](https://github.com/syedsaqueeb085)
 
 <img src="https://img.shields.io/badge/Status-Deployed-success?style=flat-square" alt="Status"/>
