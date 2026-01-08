@@ -7,8 +7,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=syedsaqueeb085&label=Profile%20Views&color=00d9ff&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/syedsaqueeb085?label=Followers&style=for-the-badge&color=00d9ff" alt="Followers" />
+  
   <img src="https://img.shields.io/badge/Focus-MERN%20Stack%20Development-00d9ff?style=for-the-badge" alt="Focus" />
   <img src="https://img.shields.io/badge/Status-Available%20for%20Opportunities-brightgreen?style=for-the-badge" alt="Status" />
 </p>
