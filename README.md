@@ -346,10 +346,7 @@ I'm constantly working on new projects to expand my portfolio and skills. Stay t
 
 <br/>
 
-<!-- ✨ Smooth Animated Divider -->
-<p align="center">
-  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="70%" />
-</p>
+
 
 <!-- 🌊 Footer Wave -->
 <p align="center">
