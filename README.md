@@ -347,9 +347,7 @@ I'm constantly working on new projects to expand my portfolio and skills. Stay t
 <br/>
 
 <!-- 🏆 Trophies -->
-<div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=syedsaqueeb085&theme=tokyonight&no-frame=true&margin-w=6&row=1" />
-</div>
+
 
 <br/>
 
