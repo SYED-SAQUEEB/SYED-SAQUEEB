@@ -319,24 +319,49 @@ I'm constantly working on new projects to expand my portfolio and skills. Stay t
 
 ## 📊 GitHub Analytics & Statistics
 
+<!-- 🌌 Animated Header Banner -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1b27,100:70a5fd&height=180&section=header&text=GitHub%20Analytics&fontColor=ffffff&fontSize=38&animation=fadeIn" width="100%" />
+</p>
+
+<!-- 📊 GitHub Stats -->
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=syedsaqueeb085&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=syedsaqueeb085&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=syedsaqueeb085&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=syedsaqueeb085&theme=tokyonight&hide_border=true" />
 </div>
 
+<br/>
+
+<!-- 💻 Top Languages -->
 <div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedsaqueeb085&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedsaqueeb085&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
 </div>
 
+<br/>
+
+<!-- 📈 Contribution Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=syedsaqueeb085&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="100%" />
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=syedsaqueeb085&theme=tokyo-night&hide_border=true&area=true" />
 </div>
 
+<br/>
+
+<!-- 🏆 Trophies -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=syedsaqueeb085&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" width="100%" />
+  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=syedsaqueeb085&theme=tokyonight&no-frame=true&margin-w=6&row=1" />
 </div>
 
-<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnZ0NWdjbW9kc3MwYzJhaDA4YXpmMTBia2lsZmNuMHg1czdkZmcxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26u4nJPf0JtQPdStq/giphy.gif" width="100%" />
+<br/>
+
+<!-- ✨ Smooth Animated Divider -->
+<p align="center">
+  <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="70%" />
+</p>
+
+<!-- 🌊 Footer Wave -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:70a5fd,100:1a1b27&height=120&section=footer" width="100%" />
+</p>
 
 
 
