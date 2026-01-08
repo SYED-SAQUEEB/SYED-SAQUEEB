@@ -341,7 +341,7 @@ I'm constantly working on new projects to expand my portfolio and skills. Stay t
 
 <!-- 📈 Contribution Graph -->
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=syedsaqueeb085&theme=tokyo-night&hide_border=true&area=true" />
+  <img width="100%" src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnZ0NWdjbW9kc3MwYzJhaDA4YXpmMTBia2lsZmNuMHg1czdkZmcxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26u4nJPf0JtQPdStq/giphy.gif" />
 </div>
 
 <br/>
