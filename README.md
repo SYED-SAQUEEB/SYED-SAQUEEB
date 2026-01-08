@@ -317,28 +317,26 @@ I'm constantly working on new projects to expand my portfolio and skills. Stay t
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=syedsaqueeb085&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=syedsaqueeb085&theme=tokyonight&hide_border=true" />
-</div>
-
-<br/>
+## 📊 GitHub Analytics & Statistics
 
 <div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedsaqueeb085&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=syedsaqueeb085&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=syedsaqueeb085&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
-
-<br/>
 
 <div align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=syedsaqueeb085&theme=tokyo-night&hide_border=true&area=true" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedsaqueeb085&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" alt="Top Languages" />
 </div>
-
-<br/>
 
 <div align="center">
-  <img width="100%" src="https://github-profile-trophy.vercel.app/?username=syedsaqueeb085&theme=tokyonight&no-frame=true&margin-w=4&row=1" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=syedsaqueeb085&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" width="100%" />
 </div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=syedsaqueeb085&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" width="100%" />
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 
 ## 🎯 Goals & Roadmap for 2025
