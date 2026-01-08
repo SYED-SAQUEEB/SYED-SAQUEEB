@@ -332,12 +332,7 @@ I'm constantly working on new projects to expand my portfolio and skills. Stay t
 
 <br/>
 
-<!-- 💻 Top Languages -->
-<div align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=syedsaqueeb085&layout=compact&theme=tokyonight&hide_border=true&langs_count=10" />
-</div>
 
-<br/>
 
 <!-- 📈 Contribution Graph -->
 <div align="center">
