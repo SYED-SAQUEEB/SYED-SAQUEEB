@@ -336,7 +336,8 @@ I'm constantly working on new projects to expand my portfolio and skills. Stay t
   <img src="https://github-profile-trophy.vercel.app/?username=syedsaqueeb085&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" alt="GitHub Trophies" width="100%" />
 </div>
 
-<img src="[[https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnZ0NWdjbW9kc3MwYzJhaDA4YXpmMTBia2lsZmNuMHg1czdkZmcxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26u4nJPf0JtQPdStq/giphy.gif)](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDZ0Z3N2aWpwM214Z255d3RseWNjYjV1cXNicGEzbmgwanI1aDE0aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/6W7labESIQ4P3IECui/giphy.gif)">
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnZ0NWdjbW9kc3MwYzJhaDA4YXpmMTBia2lsZmNuMHg1czdkZmcxcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26u4nJPf0JtQPdStq/giphy.gif" width="100%" />
+
 
 
 ## 🎯 Goals & Roadmap for 2025
