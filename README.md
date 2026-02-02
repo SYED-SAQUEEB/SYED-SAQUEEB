@@ -4,7 +4,7 @@
 </div>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Syed+Saqueeb;Software+Developer+MERN-Stack+%F0%9F%9A%80;Building+Scalable+Web+Applications+%F0%9F%92%BB;Passionate+Full+Stack+Developer+%E2%9C%A8;Continuous+Learner+%26+Problem+Solver+%F0%9F%A7%A9;Turning+Ideas+into+Reality+through+Code+%F0%9F%94%A5" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=00D9FF&center=true&vCenter=true&width=700&lines=Hi+%F0%9F%91%8B%2C+I'm+Syed+Saqueeb;Software+Developer+%F0%9F%9A%80;Building+Scalable+Web+Applications+%F0%9F%92%BB;Passionate+Full+Stack+Developer+%E2%9C%A8;Continuous+Learner+%26+Problem+Solver+%F0%9F%A7%A9;Turning+Ideas+into+Reality+through+Code+%F0%9F%94%A5" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -21,9 +21,9 @@
 
 ## 👨‍💻 About Me
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
+<img align="right" alt="Coding" width="200" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
 
-Hello! I'm **Syed Saqueeb Amjad**, a passionate **Software Developer** from **India** 🇮🇳 with a deep love for building powerful, scalable web applications. Currently, I'm working as a **Software Developer Intern at Wainfo Technologies**, where I'm gaining invaluable hands-on experience in the **MERN Stack** (MongoDB, Express.js, React.js, Node.js).
+Hello! I'm **Syed Saqueeb **, a passionate **Software Developer** from **India** 🇮🇳 with a deep love for building powerful, scalable web applications. Currently, I'm working as a **Software Developer Intern at Wainfo Technologies**, where I'm gaining invaluable hands-on experience in the **MERN Stack** (MongoDB, Express.js, React.js, Node.js).
 
 ### 🎯 My Journey
 I started my coding journey with a fascination for how websites work behind the scenes. This curiosity led me to explore **frontend development** with HTML, CSS, and JavaScript, and eventually to master modern frameworks like **React.js**. As I progressed, I realized the importance of understanding the full stack, which drove me to dive deep into **backend technologies** like Node.js, Express.js, and database management with MongoDB and SQL.
